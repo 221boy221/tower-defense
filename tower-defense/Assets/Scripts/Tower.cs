@@ -4,10 +4,10 @@ using System.Collections;
 public class Tower : MonoBehaviour {
 
     public BulletController bulletPrefab = null;
+    public int buildPrice = 1;
     public float interval = 2.0f;
     public float range = 10.0f;
     public float rotationSpeed = 2.0f;
-    public int buildPrice = 1;
     private float timeLeft = 0.0f;
 
     EnemyBehaviour findClosestTarget() {
