@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: ef83cf8c0dae9bb44bc55060d8599ffd
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: teslaIdle_0
+    21300002: Idle_ligh_1
+    21300004: Idle_ligh_2
+    21300006: Idle_ligh_3
+    21300008: Idle_ligh_4
+    21300010: Idle_ligh_5
+    21300012: Idle_ligh_6
+    21300014: Idle_ligh_7
+    21300016: Idle_ligh_8
+    21300018: Idle_ligh_9
+    21300020: Idle_ligh_10
+    21300022: Idle_ligh_11
+    21300024: Idle_ligh_12
+    21300026: Idle_ligh_13
+    21300028: Idle_ligh_14
+    21300030: teslaIdle_1
+    21300032: teslaIdle_2
+    21300034: teslaIdle_3
+    21300036: teslaIdle_4
+    21300038: teslaIdle_5
+    21300040: teslaIdle_6
+    21300042: teslaIdle_7
+    21300044: teslaIdle_8
+    21300046: teslaIdle_9
+    21300048: teslaIdle_10
+    21300050: teslaIdle_11
+    21300052: teslaIdle_12
+    21300054: teslaIdle_13
+    21300056: teslaIdle_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: teslaIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387
+        width: 86
+        height: 121
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaIdle_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 387
+        width: 86
+        height: 122
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaIdle_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 387
+        width: 86
+        height: 122
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaIdle_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 387
+        width: 86
+        height: 122
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaIdle_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 387
+        width: 86
+        height: 122
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaIdle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 247
+        width: 86
+        height: 122
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaIdle_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 247
+        width: 86
+        height: 123
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaIdle_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 247
+        width: 86
+        height: 123
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaIdle_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 247
+        width: 86
+        height: 123
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaIdle_9
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 247
+        width: 86
+        height: 122
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaIdle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 86
+        height: 122
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaIdle_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 107
+        width: 86
+        height: 122
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaIdle_12
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 107
+        width: 86
+        height: 122
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaIdle_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 107
+        width: 86
+        height: 122
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaIdle_14
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 107
+        width: 86
+        height: 121
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

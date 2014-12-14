@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: 4723fe6502c2d074381c027cb2c4a50b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: teslaFire_0
+    21300002: teslaFire_1
+    21300004: teslaFire_2
+    21300006: teslaFire_3
+    21300008: teslaFire_4
+    21300010: teslaFire_5
+    21300012: teslaFire_6
+    21300014: teslaFire_7
+    21300016: teslaFire_8
+    21300018: teslaFire_9
+    21300020: teslaFire_10
+    21300022: teslaFire_11
+    21300024: teslaFire_12
+    21300026: teslaFire_13
+    21300028: teslaFire_14
+    21300030: teslaFire_15
+    21300032: teslaFire_16
+    21300034: teslaFire_17
+    21300036: teslaFire_18
+    21300038: teslaFire_19
+    21300040: teslaFire_20
+    21300042: teslaFire_21
+    21300044: teslaFire_22
+    21300046: teslaFire_23
+    21300048: teslaFire_24
+    21300050: teslaFire_25
+    21300052: teslaFire_26
+    21300054: teslaFire_27
+    21300056: teslaFire_28
+    21300058: teslaFire_29
+    21300060: teslaFire_30
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: teslaFire_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 889
+        width: 86
+        height: 121
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 889
+        width: 86
+        height: 122
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 889
+        width: 86
+        height: 122
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 889
+        width: 86
+        height: 122
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 889
+        width: 86
+        height: 122
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_5
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 889
+        width: 86
+        height: 122
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_6
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 889
+        width: 86
+        height: 123
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_7
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 889
+        width: 86
+        height: 123
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_8
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 889
+        width: 86
+        height: 123
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_9
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 889
+        width: 86
+        height: 123
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 739
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 739
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_12
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 739
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 739
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_14
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 739
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_15
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 739
+        width: 86
+        height: 125
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_16
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 739
+        width: 86
+        height: 125
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_17
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 739
+        width: 86
+        height: 125
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_18
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 739
+        width: 86
+        height: 125
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_19
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 739
+        width: 86
+        height: 125
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 589
+        width: 86
+        height: 126
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 589
+        width: 86
+        height: 126
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_22
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 589
+        width: 86
+        height: 126
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_23
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 589
+        width: 86
+        height: 126
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_24
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 589
+        width: 86
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_25
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 589
+        width: 86
+        height: 130
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_26
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 589
+        width: 86
+        height: 131
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_27
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 589
+        width: 86
+        height: 133
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_28
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 589
+        width: 86
+        height: 129
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_29
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 589
+        width: 86
+        height: 125
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaFire_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 439
+        width: 86
+        height: 121
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

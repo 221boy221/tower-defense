@@ -1,0 +1,1151 @@
+fileFormatVersion: 2
+guid: a8618ca26347f01418679daa236b612c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: level 1_0
+    21300002: level 1_1
+    21300004: level 1_2
+    21300006: level 1_3
+    21300008: level 1_4
+    21300010: level 1_5
+    21300012: level 1_6
+    21300014: level 1_7
+    21300016: level 1_8
+    21300018: level 1_9
+    21300020: level 1_10
+    21300022: level 1_11
+    21300024: level 1_12
+    21300026: level 1_13
+    21300028: level 1_14
+    21300030: level 1_15
+    21300032: level 1_16
+    21300034: level 1_17
+    21300036: level 1_18
+    21300038: level 1_19
+    21300040: level 1_20
+    21300042: level 1_21
+    21300044: level 1_22
+    21300046: level 1_23
+    21300048: level 1_24
+    21300050: level 1_25
+    21300052: level 1_26
+    21300054: level 1_27
+    21300056: level 1_28
+    21300058: level 1_29
+    21300060: level 1_30
+    21300062: level 1_31
+    21300064: level 1_32
+    21300066: level 1_33
+    21300068: level 1_34
+    21300070: level 1_35
+    21300072: level 1_36
+    21300074: level 1_37
+    21300076: level 1_38
+    21300078: level 1_39
+    21300080: level 1_40
+    21300082: level 1_41
+    21300084: level 1_42
+    21300086: level 1_43
+    21300088: level 1_44
+    21300090: level 1_45
+    21300092: level 1_46
+    21300094: level 1_47
+    21300096: level 1_48
+    21300098: level 1_49
+    21300100: level 1_50
+    21300102: level 1_51
+    21300104: level 1_52
+    21300106: level 1_53
+    21300108: level 1_54
+    21300110: level 1_55
+    21300112: level 1_56
+    21300114: level 1_57
+    21300116: level 1_58
+    21300118: level 1_59
+    21300120: level 1_60
+    21300122: level 1_62
+    21300124: level 1_63
+    21300126: level 1_64
+    21300128: level 1_65
+    21300130: level 1_66
+    21300132: level 1_67
+    21300134: level 1_68
+    21300136: level 1_69
+    21300138: level 1_70
+    21300140: level 1_71
+    21300142: level 1_72
+    21300144: level 1_73
+    21300146: level 1_74
+    21300148: level 1_75
+    21300150: level 1_76
+    21300152: level 1_77
+    21300154: level 1_78
+    21300156: level 1_79
+    21300158: level 1_80
+    21300160: level 1_81
+    21300162: level 1_82
+    21300164: level 1_83
+    21300166: level 1_84
+    21300168: level 1_85
+    21300170: level 1_86
+    21300172: level 1_87
+    21300174: level 1_88
+    21300176: level 1_89
+    21300178: level 1_90
+    21300180: level 1_91
+    21300182: level 1_92
+    21300184: level 1_93
+    21300186: level 1_94
+    21300188: level 1_95
+    21300190: level 1_96
+    21300192: level 1_97
+    21300194: level 1_98
+    21300196: level 1_99
+    21300198: level 1_100
+    21300200: level 1_101
+    21300202: level 1_99
+    21300204: level 1_100
+    21300206: level 1_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: level 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1924
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1924
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1924
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1924
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1924
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_5
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1924
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_6
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1924
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_7
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1924
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_8
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1924
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_9
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1924
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1780
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1780
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_12
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1780
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1780
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_14
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1780
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_15
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1780
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_16
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1780
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_17
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1780
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_18
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1780
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_19
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1780
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1636
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1636
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_22
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1636
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_23
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1636
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_24
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1636
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_25
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1636
+        width: 86
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_26
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1636
+        width: 86
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_27
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1636
+        width: 86
+        height: 50
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_28
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1636
+        width: 86
+        height: 52
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_29
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1636
+        width: 86
+        height: 53
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1492
+        width: 86
+        height: 55
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_31
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1492
+        width: 86
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_32
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1492
+        width: 86
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_33
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1492
+        width: 86
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_34
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1492
+        width: 86
+        height: 73
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_35
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1492
+        width: 86
+        height: 80
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_36
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1492
+        width: 86
+        height: 87
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_37
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1491
+        width: 86
+        height: 96
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_38
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1488
+        width: 86
+        height: 109
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_39
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1487
+        width: 86
+        height: 120
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 86
+        height: 117
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_41
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1345
+        width: 86
+        height: 115
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_42
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1344
+        width: 86
+        height: 117
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_43
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1343
+        width: 86
+        height: 120
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_44
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1343
+        width: 86
+        height: 120
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_45
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1343
+        width: 86
+        height: 120
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_46
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1343
+        width: 86
+        height: 121
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_47
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1343
+        width: 86
+        height: 120
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_48
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1343
+        width: 86
+        height: 120
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_49
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1343
+        width: 86
+        height: 120
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_50
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1199
+        width: 86
+        height: 125
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_51
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1199
+        width: 86
+        height: 128
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_53
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1199
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1199
+        width: 86
+        height: 120
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_55
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1199
+        width: 86
+        height: 120
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_56
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1199
+        width: 86
+        height: 120
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_57
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1199
+        width: 86
+        height: 120
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_58
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1199
+        width: 86
+        height: 120
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_59
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1199
+        width: 86
+        height: 120
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_60
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1199
+        width: 86
+        height: 121
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1055
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_63
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1055
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_64
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1055
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_65
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1055
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_66
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1055
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_67
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1055
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_68
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1055
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_69
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1055
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_70
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1055
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_71
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1055
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 911
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_73
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 911
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_74
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 911
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_75
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 911
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_76
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 911
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_77
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 911
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_78
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 911
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_79
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 911
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_80
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 911
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_81
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 911
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 767
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_83
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 767
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_84
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 767
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_85
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 767
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_86
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 767
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_87
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 767
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_88
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 767
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_89
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 767
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_90
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 767
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_91
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 767
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 623
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_93
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 623
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_94
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 623
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_95
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 623
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_96
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 623
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_97
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 623
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_98
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 623
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_99
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 623
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_100
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 623
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level 1_101
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 623
+        width: 86
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

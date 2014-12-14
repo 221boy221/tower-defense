@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
-  - 114: {fileID: 11400000}
+  - 114: {fileID: 11470354}
   m_Layer: 0
   m_Name: Tower02
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11400000
+--- !u!114 &11470354
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -37,14 +37,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33d4a589f0ca21a4996175709657950e, type: 3}
+  m_Script: {fileID: 11500000, guid: ff1c5eae0f3bf9d4abf1d4c50eb29214, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 11400000, guid: 78e7f0f85fdb88b48b7d120902841343, type: 2}
   buildPrice: 1
-  interval: 1
-  range: 20
-  rotationSpeed: 2
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

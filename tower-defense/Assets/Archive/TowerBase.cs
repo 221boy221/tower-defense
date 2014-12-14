@@ -9,7 +9,7 @@ public class TowerBase : MonoBehaviour {
     public bool aoe;
     public bool slowEffect;
 
-    public virtual void Shoot() {
+    public virtual void Fire() {
 
     }
 

@@ -1,17 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BulletController : MonoBehaviour {
+public class Bullet : MonoBehaviour {
 
-    public float speed;
-    public int damage = 1;
-    Transform destination;
-    private Vector3 velocity;
-    public float collisionDistance = 1f;
-    public float arch;
+    private Vector3 _velocity;
+    private Transform destination;
+    private float damage = 0.0f;
+    private float speed = 2f;
+    private float collisionDistance = 1.0f;
+    private float arch = 2.5f;
 
     void Start() {
-        velocity = new Vector3(0, arch, 0);
+        _velocity = new Vector3(0, arch, 0);
     }
 
     void Update() {
@@ -21,17 +21,14 @@ public class BulletController : MonoBehaviour {
             return;
         }
 
-        //float stepSize = Time.deltaTime * speed;
-
         // Calculate step to target
         Vector3 offset = destination.position - transform.position;
         offset.Normalize();
         offset = offset * speed;
-        velocity = velocity + offset;
+        _velocity = _velocity + offset;
 
         // Fly towards the destination
-        transform.position = transform.position + (velocity * Time.deltaTime);
-        //transform.position = Vector3.MoveTowards(transform.position, destination.position, stepSize);
+        transform.position = transform.position + (_velocity * Time.deltaTime);
 
         // When reached
         if (Vector3.Distance(transform.position, destination.position) < collisionDistance) {
@@ -40,10 +37,10 @@ public class BulletController : MonoBehaviour {
 
             Destroy(gameObject);
         }
-        //if (transform.position.Equals(destination.position)) {
-        //    // Deal damage
+    }
 
-        //}
+    public void setDamage(float dmg) {
+        damage = dmg;
     }
 
     public void setDestination(Transform target) {
