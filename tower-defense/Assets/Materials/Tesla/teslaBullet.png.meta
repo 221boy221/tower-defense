@@ -1,0 +1,419 @@
+fileFormatVersion: 2
+guid: d6cc07b622f2f9941b8689f620d9d2cb
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bullet_light_0
+    21300002: Bullet_light_1
+    21300004: Bullet_light_2
+    21300006: Bullet_light_3
+    21300008: Bullet_light_4
+    21300010: Bullet_light_5
+    21300012: Bullet_light_6
+    21300014: Bullet_light_7
+    21300016: Bullet_light_8
+    21300018: Bullet_light_9
+    21300020: Bullet_light_10
+    21300022: Bullet_light_11
+    21300024: Bullet_light_12
+    21300026: Bullet_light_13
+    21300028: Bullet_light_14
+    21300030: Bullet_light_15
+    21300032: Bullet_light_16
+    21300034: Bullet_light_17
+    21300036: Bullet_light_18
+    21300038: Bullet_light_19
+    21300040: Bullet_light_20
+    21300042: Bullet_light_21
+    21300044: Bullet_light_22
+    21300046: Bullet_light_23
+    21300048: Bullet_light_24
+    21300050: Bullet_light_25
+    21300052: Bullet_light_26
+    21300054: Bullet_light_27
+    21300056: Bullet_light_28
+    21300058: Bullet_light_29
+    21300060: Bullet_light_30
+    21300062: teslaBullet_0
+    21300064: teslaBullet_1
+    21300066: teslaBullet_2
+    21300068: teslaBullet_3
+    21300070: teslaBullet_4
+    21300072: teslaBullet_5
+    21300074: teslaBullet_6
+    21300076: teslaBullet_7
+    21300078: teslaBullet_8
+    21300080: teslaBullet_9
+    21300082: teslaBullet_10
+    21300084: teslaBullet_11
+    21300086: teslaBullet_12
+    21300088: teslaBullet_13
+    21300090: teslaBullet_14
+    21300092: teslaBullet_15
+    21300094: teslaBullet_16
+    21300096: teslaBullet_17
+    21300098: teslaBullet_18
+    21300100: teslaBullet_19
+    21300102: teslaBullet_20
+    21300104: teslaBullet_21
+    21300106: teslaBullet_22
+    21300108: teslaBullet_23
+    21300110: teslaBullet_24
+    21300112: teslaBullet_25
+    21300114: teslaBullet_26
+    21300116: teslaBullet_27
+    21300118: teslaBullet_28
+    21300120: teslaBullet_29
+    21300122: teslaBullet_30
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: teslaBullet_0
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3858
+        width: 333
+        height: 238
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_1
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 3865
+        width: 314
+        height: 224
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_2
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 3871
+        width: 296
+        height: 212
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_3
+      rect:
+        serializedVersion: 2
+        x: 3748
+        y: 3878
+        width: 277
+        height: 198
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 3582
+        width: 295
+        height: 212
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_5
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 3576
+        width: 314
+        height: 224
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_6
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 3569
+        width: 335
+        height: 238
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_7
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 3576
+        width: 354
+        height: 224
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_8
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 3293
+        width: 373
+        height: 212
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_9
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3300
+        width: 391
+        height: 198
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_10
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 3293
+        width: 427
+        height: 212
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_11
+      rect:
+        serializedVersion: 2
+        x: 3579
+        y: 3287
+        width: 465
+        height: 224
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2991
+        width: 502
+        height: 238
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_13
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 2998
+        width: 521
+        height: 224
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_14
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 3004
+        width: 540
+        height: 212
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_15
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 3011
+        width: 557
+        height: 198
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_16
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 2715
+        width: 594
+        height: 212
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_17
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 2709
+        width: 632
+        height: 224
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_18
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 2702
+        width: 669
+        height: 238
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_19
+      rect:
+        serializedVersion: 2
+        x: 3356
+        y: 2707
+        width: 688
+        height: 226
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_20
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 2414
+        width: 706
+        height: 224
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_21
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 2410
+        width: 724
+        height: 221
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_22
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 2406
+        width: 761
+        height: 232
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_23
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 2403
+        width: 798
+        height: 241
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_24
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2110
+        width: 835
+        height: 252
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_25
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 2106
+        width: 854
+        height: 249
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_26
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 2103
+        width: 873
+        height: 246
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_27
+      rect:
+        serializedVersion: 2
+        x: 3134
+        y: 2099
+        width: 891
+        height: 243
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_28
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1806
+        width: 927
+        height: 254
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_29
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1803
+        width: 965
+        height: 263
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: teslaBullet_30
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1799
+        width: 1002
+        height: 274
+      alignment: 5
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

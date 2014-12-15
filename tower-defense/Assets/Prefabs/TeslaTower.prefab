@@ -8,11 +8,11 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400000}
-  - 114: {fileID: 11461250}
   - 95: {fileID: 9543306}
   - 212: {fileID: 21259456}
+  - 114: {fileID: 11461250}
   m_Layer: 0
-  m_Name: Tower01
+  m_Name: TeslaTower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

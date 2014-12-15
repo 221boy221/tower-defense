@@ -64,17 +64,17 @@ public class Tower : MonoBehaviour {
             // Check if in range
             if (Vector3.Distance(transform.position, target.transform.position) <= range) {
                 // Charging...
-                anim.Play("animFire");
+                if (anim) anim.Play("animFire");
                 yield return new WaitForSeconds(1);
                 // Ready to fire
                 Fire(target);
                 canFire = true;
 
             } else {
-                anim.Play("animIdle");
+                if (anim) anim.Play("animIdle");
             }
         } else {
-            anim.Play("animIdle");
+            if (anim) anim.Play("animIdle");
         }
     }
 
