@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+    // Swan
+
 public class WaypointTest : MonoBehaviour {
 
     public float accelerate = 1.8f;

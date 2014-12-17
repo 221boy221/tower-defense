@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-// Boy
+    // Boy
 
 public class EnemySpawner : MonoBehaviour {
 

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-// Boy
+    // Boy
 
 public class Player : MonoBehaviour {
 

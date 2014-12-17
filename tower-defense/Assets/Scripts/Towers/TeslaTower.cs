@@ -18,7 +18,7 @@ public class TeslaTower : Tower {
         // get access to bullet component
         Bullet b = g.GetComponent<Bullet>();
         // set destination
-        b.setDestination(target.transform);
+        if(target) b.setDestination(target.transform);
         b.setDamage(damage);
         // reset time
         timeLeft = interval;

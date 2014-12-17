@@ -1,83 +1,48 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyScript : MonoBehaviour
-{
+    // Swan
 
-    //public GameObject waypoint;
+public class EnemyScript : MonoBehaviour {
+
     public float speed;
     public float accuracy;
-
     public Transform[] waypoints;
-    private int curWayPoint;
-    private Vector3 velocity;
-
-    /*public float hitpoints;
-    *public GameObject;
-    *public float spawnWaitTime;*/
+    private Vector3 _velocity;
+    private int _curWayPoint;
 
     // Use this for initialization
-    void Start()
-    {
-        curWayPoint = 0;
-        velocity = new Vector3();
-        //InvokeRepeating ("Spawn", 1, spawnWaitTime);
+    void Start() {
+        _curWayPoint = 0;
+        _velocity = new Vector3();
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        /*if(...(0)) 
-             {
-             hitpoints -= ...;
-         
-             if (hitpoints <= 0) 
-             {
-                 Death();
-             }
-         }*/
-        if (curWayPoint < waypoints.Length)
-        {
-            //float step = speed * Time.deltaTime;
-            //transform.position = Vector2.MoveTowards(transform.position, waypoints[curWayPoint].transform.position, step);
+    void Update() {
+        if (_curWayPoint < waypoints.Length) {
 
-            Vector3 step = waypoints[curWayPoint].transform.position - transform.position;
+            Vector3 step = waypoints[_curWayPoint].transform.position - transform.position;
             step.Normalize();
             step *= speed;
 
-            velocity = step;
+            _velocity = step;
 
-            if (Vector3.Distance(transform.position, waypoints[curWayPoint].transform.position) < accuracy)
-            {
-                if (curWayPoint != waypoints.Length)
-                {
-                    curWayPoint++;
-                    if (curWayPoint >= waypoints.Length)
-                    {
+            if (Vector3.Distance(transform.position, waypoints[_curWayPoint].transform.position) < accuracy) {
+                if (_curWayPoint != waypoints.Length) {
+                    _curWayPoint++;
+                    if (_curWayPoint >= waypoints.Length) {
                         Destroy(this.gameObject);
                         Debug.Log("derp is dead");
                     }
-                }
-                else
-                {
+                } else {
                     Debug.Log("derp is alive");
                 }
             }
 
             //apply velocity 
-            transform.position = transform.position + velocity * Time.deltaTime;
+            transform.position = transform.position + _velocity * Time.deltaTime;
         }
-        
-    }
-    /*void Death() {
-          //gameObject.renderer.enabled = false;
-            Destroy(gameObject);
-            WaitForSeconds(3);
-            Debug.Log("derp is dead");
-            Spawn();
-        }*/
 
-    /*void Spawn() {
-        var newEnemy = Instantiate(enemy, transform.position, transform.rotation);
-    }*/
+    }
+    
 }
