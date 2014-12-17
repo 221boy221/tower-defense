@@ -1,18 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+    // Boy
     // WOOO, I finally got the hang of inheritance in C# (kinda) :D
 
 public class Tower : MonoBehaviour {
 
-    public Bullet bulletPrefab = null;
-    public int buildPrice = 1;
+    private bool _canFire = false;
+    private Animator _anim;
     protected float interval = 2.0f;
     protected float range = 10.0f;
     protected float timeLeft = 0.0f;
     protected float damage = 0.0f;
-    private bool canFire = false;
-    private Animator anim;
+    public Bullet bulletPrefab = null;
+    public int buildPrice = 1;    
 
     EnemyBehaviour findClosestTarget() {
         EnemyBehaviour closest = null;
@@ -39,19 +40,19 @@ public class Tower : MonoBehaviour {
 
     void Awake() {
         StartCoroutine(Delay());
-        anim = GetComponentInChildren<Animator>();
+        _anim = GetComponentInChildren<Animator>();
     }
 
     IEnumerator Delay() {
         yield return new WaitForSeconds(6);
-        canFire = true;
+        _canFire = true;
     }
 
     void Update() {
-        if (canFire) {
+        if (_canFire) {
             timeLeft -= Time.deltaTime;
             if (timeLeft <= 0.0f) {
-                canFire = false;
+                _canFire = false;
                 StartCoroutine(FindTarget());
             }
         }
@@ -64,17 +65,17 @@ public class Tower : MonoBehaviour {
             // Check if in range
             if (Vector3.Distance(transform.position, target.transform.position) <= range) {
                 // Charging...
-                if (anim) anim.Play("animFire");
+                if (_anim) _anim.Play("animFire");
                 yield return new WaitForSeconds(1);
                 // Ready to fire
                 Fire(target);
-                canFire = true;
+                _canFire = true;
 
             } else {
-                if (anim) anim.Play("animIdle");
+                if (_anim) _anim.Play("animIdle");
             }
         } else {
-            if (anim) anim.Play("animIdle");
+            if (_anim) _anim.Play("animIdle");
         }
     }
 

@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+    // Boy
+
 public class TowerSlot : MonoBehaviour {
 
     public GUISkin skin = null;
