@@ -67,7 +67,7 @@ public class EnemyScript : MonoBehaviour
             //apply velocity 
             transform.position = transform.position + velocity * Time.deltaTime;
         }
-        
+
     }
     /*void Death() {
           //gameObject.renderer.enabled = false;

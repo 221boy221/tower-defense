@@ -11,7 +11,7 @@ public class Bullet : MonoBehaviour {
     private float arch = 2.5f;
 
     void Start() {
-        _velocity = new Vector3(0, arch, 0);
+        _velocity = new Vector3(0, arch, 0);                                                                                                                
     }
 
     void Update() {
