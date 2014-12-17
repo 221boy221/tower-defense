@@ -26,7 +26,7 @@ public class SpawnScript : MonoBehaviour {
             Debug.Log("derp");
 
             GameObject g = (GameObject)Instantiate(enemyTypes[_currentEnemyIndex], transform.position, Quaternion.identity);
-            g.GetComponent<EnemyScript>().waypoints = waypoints.wayPoints;
+            g.GetComponent<Enemy>().waypoints = waypoints.wayPoints;
 
             _timeLeft = interval;
         }

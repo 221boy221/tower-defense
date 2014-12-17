@@ -3,7 +3,7 @@ using System.Collections;
 
     // Boy
 
-public class TeslaTower : Tower {
+public class Tower_Tesla : Tower {
 
     void Start() {
         buildPrice  = 1;

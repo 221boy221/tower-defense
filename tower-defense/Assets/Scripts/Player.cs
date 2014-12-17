@@ -6,7 +6,7 @@ using System.Collections;
 public class Player : MonoBehaviour {
 
     public GUISkin skin = null;
-    public static int gold = 3; // start gold
+    public static int gold = 10; // start gold
 
     void OnGUI() {
         GUI.skin = skin;

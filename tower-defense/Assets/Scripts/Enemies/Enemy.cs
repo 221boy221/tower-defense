@@ -3,11 +3,13 @@ using System.Collections;
 
     // Swan
 
-public class EnemyScript : MonoBehaviour {
+public class Enemy : MonoBehaviour {
 
-    public float speed;
-    public float accuracy;
     public Transform[] waypoints;
+    protected float speed;
+    protected float accuracy;
+    protected float health;
+    protected float damageReduction;
     private Vector3 _velocity;
     private int _curWayPoint;
 
@@ -32,10 +34,10 @@ public class EnemyScript : MonoBehaviour {
                     _curWayPoint++;
                     if (_curWayPoint >= waypoints.Length) {
                         Destroy(this.gameObject);
-                        Debug.Log("derp is dead");
+                        Debug.Log("Enemy is dead");
                     }
                 } else {
-                    Debug.Log("derp is alive");
+                    Debug.Log("Enemy is alive");
                 }
             }
 
@@ -44,5 +46,18 @@ public class EnemyScript : MonoBehaviour {
         }
 
     }
-    
+
+    // Take damage
+    public void TakeDamage(float dmg) {
+
+        dmg -= damageReduction;
+        if (dmg < 0) dmg = 0;
+
+        health -= dmg;
+
+        if (health <= 0) {
+            Destroy(gameObject);
+        }
+    }
+
 }

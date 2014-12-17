@@ -3,7 +3,7 @@ using System.Collections;
 
     // Boy
 
-public class SmelterTower : Tower {
+public class Tower_Smelter : Tower {
 
     void Start() {
         buildPrice  = 1;

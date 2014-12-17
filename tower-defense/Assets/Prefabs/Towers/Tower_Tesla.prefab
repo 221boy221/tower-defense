@@ -12,7 +12,7 @@ GameObject:
   - 212: {fileID: 21259456}
   - 114: {fileID: 11461250}
   m_Layer: 0
-  m_Name: TeslaTower
+  m_Name: Tower_Tesla
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56,6 +56,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72cd6cd415e73ce418526cb25a7d83e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _canFire: 0
+  _anim: {fileID: 0}
+  interval: 2
+  range: 10
+  timeLeft: 0
+  damage: 0
   bulletPrefab: {fileID: 11400000, guid: 78e7f0f85fdb88b48b7d120902841343, type: 2}
   buildPrice: 1
 --- !u!212 &21259456

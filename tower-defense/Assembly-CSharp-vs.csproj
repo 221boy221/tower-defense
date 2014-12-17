@@ -47,21 +47,25 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Archive\EnemyBehaviour.cs" />
+     <Compile Include="Assets\Archive\EnemyHealth.cs" />
      <Compile Include="Assets\Archive\EnemySpawner.cs" />
      <Compile Include="Assets\Archive\ToggleObject.cs" />
      <Compile Include="Assets\Archive\TowerBase.cs" />
      <Compile Include="Assets\Archive\TurretBehaviour.cs" />
-     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
-     <Compile Include="Assets\Scripts\EnemyScript.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Enemy_Armored.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Enemy_Defult.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Enemy_Fast.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Enemy_Slow.cs" />
+     <Compile Include="Assets\Scripts\Enemies\SpawnScript.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\SpawnScript.cs" />
      <Compile Include="Assets\Scripts\Tools.cs" />
      <Compile Include="Assets\Scripts\Towers\Bullet.cs" />
-     <Compile Include="Assets\Scripts\Towers\SmelterTower.cs" />
-     <Compile Include="Assets\Scripts\Towers\TeslaTower.cs" />
      <Compile Include="Assets\Scripts\Towers\Tower.cs" />
      <Compile Include="Assets\Scripts\Towers\TowerSlot.cs" />
-     <Compile Include="Assets\Scripts\Towers\TremorTower.cs" />
+     <Compile Include="Assets\Scripts\Towers\Tower_Smelter.cs" />
+     <Compile Include="Assets\Scripts\Towers\Tower_Tesla.cs" />
+     <Compile Include="Assets\Scripts\Towers\Tower_Tremor.cs" />
      <Compile Include="Assets\Scripts\WaypointTest.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
