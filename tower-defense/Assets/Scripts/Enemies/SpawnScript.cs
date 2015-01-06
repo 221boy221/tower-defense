@@ -13,7 +13,6 @@ public class SpawnScript : MonoBehaviour {
 
     GameObject[] enemyWaves;
 
-
     void Update() {
 
         _timeLeft -= Time.deltaTime;

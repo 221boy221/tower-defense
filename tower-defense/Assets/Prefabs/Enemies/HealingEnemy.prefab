@@ -12,7 +12,7 @@ GameObject:
   - 114: {fileID: 11400002}
   - 114: {fileID: 11400004}
   m_Layer: 0
-  m_Name: BasicEnemy
+  m_Name: HealingEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b0cdcf068a63194e81b14c2abeaaa12, type: 3}
+  m_Script: {fileID: 11500000, guid: 23c8ff96a6222984bb12cdcc4aa9a56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints: []
@@ -118,7 +118,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: .328690886, g: 1, b: 0, a: 1}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

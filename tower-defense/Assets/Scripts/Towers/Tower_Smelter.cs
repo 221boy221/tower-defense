@@ -12,7 +12,7 @@ public class Tower_Smelter : Tower {
         damage      = 20.0f;
     }
 
-    public override void Fire(EnemyBehaviour target) {
+    public override void Fire(Enemy_Default target) {
         // spawn bullet
         GameObject g = (GameObject)Instantiate(bulletPrefab.gameObject, transform.position, Quaternion.identity);
         // get access to bullet component

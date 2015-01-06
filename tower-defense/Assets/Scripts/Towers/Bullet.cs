@@ -5,9 +5,10 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour {
 
+    public float _damage = 0.0f;
+
     private Vector3 _velocity;
     private Transform _destination;
-    private float _damage = 0.0f;
     private float _speed = 0.5f;
     private float _collisionDistance = 1.0f;
     private float _arch = 2.0f;
