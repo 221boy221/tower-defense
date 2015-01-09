@@ -4,9 +4,13 @@
 TagManager:
   tags:
   - TowerBase
-  - towerMenuUI
+  - BuyMenu
   - Enemy
   - Projectile
+  - TowerMenu
+  - Waypoint
+  - 
+  - towerMenuUI
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

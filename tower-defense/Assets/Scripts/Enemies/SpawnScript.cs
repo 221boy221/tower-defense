@@ -22,7 +22,7 @@ public class SpawnScript : MonoBehaviour {
             _currentEnemyIndex++;
             if (_currentEnemyIndex >= enemyTypes.Length) _currentEnemyIndex = 0;
 
-            Debug.Log("derp");
+            Debug.Log("Spawn Enemy");
 
             GameObject g = (GameObject)Instantiate(enemyTypes[_currentEnemyIndex], transform.position, Quaternion.identity);
             g.GetComponent<Enemy>().waypoints = waypoints.wayPoints;

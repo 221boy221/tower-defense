@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
-  - 114: {fileID: 11470354}
+  - 114: {fileID: 11400000}
   m_Layer: 0
   m_Name: Tower_Tremor
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11470354
+--- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -40,12 +40,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff1c5eae0f3bf9d4abf1d4c50eb29214, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _canFire: 0
-  _anim: {fileID: 0}
-  interval: 2
-  range: 10
-  timeLeft: 0
-  damage: 0
   bulletPrefab: {fileID: 11400000, guid: a5d6f0b79df8c4d4e8a10d989ea56b86, type: 2}
   buildPrice: 1
 --- !u!212 &21200000
