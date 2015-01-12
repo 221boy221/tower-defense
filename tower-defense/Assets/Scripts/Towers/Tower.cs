@@ -7,6 +7,7 @@ using System.Collections;
 public class Tower : MonoBehaviour {
 
     private bool _canFire = false;
+    private bool _beingSold = false;
     private Animator _anim;
     protected float interval = 2.0f;
     protected float range = 10.0f;
@@ -50,7 +51,7 @@ public class Tower : MonoBehaviour {
     }
 
     void Update() {
-        if (_canFire) {
+        if (_canFire && !_beingSold) {
             timeLeft -= Time.deltaTime;
             if (timeLeft <= 0.0f) {
                 _canFire = false;
@@ -70,6 +71,7 @@ public class Tower : MonoBehaviour {
                 yield return new WaitForSeconds(1);
                 // Ready to fire
                 Fire(target);
+                // Is done shooting.
                 _canFire = true;
 
             } else {
@@ -86,6 +88,15 @@ public class Tower : MonoBehaviour {
 
     public virtual void OnMouseDown() {
         //towerUpgradeUI.SetActive(!towerUpgradeUI.activeSelf);
+    }
+
+    public void SellTower() {
+        // Disable the ability to fire
+        _beingSold = true;
+        // Play the sell anim
+        _anim.Play("animSell");
+        // Get rid of the tower
+        DestroyObject(gameObject, 3.5f);
     }
 
 }

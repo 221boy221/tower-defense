@@ -1,0 +1,465 @@
+fileFormatVersion: 2
+guid: 5a2b615de7aa4ae4aa0991a0168d2fcf
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TremorSpawn_0
+    21300002: TremorSpawn_1
+    21300004: TremorSpawn_2
+    21300006: TremorSpawn_3
+    21300008: TremorSpawn_4
+    21300010: TremorSpawn_5
+    21300012: TremorSpawn_6
+    21300014: TremorSpawn_7
+    21300016: TremorSpawn_8
+    21300018: TremorSpawn_9
+    21300020: TremorSpawn_10
+    21300022: TremorSpawn_11
+    21300024: TremorSpawn_12
+    21300026: TremorSpawn_13
+    21300028: TremorSpawn_14
+    21300030: TremorSpawn_15
+    21300032: TremorSpawn_16
+    21300034: TremorSpawn_17
+    21300036: TremorSpawn_18
+    21300038: TremorSpawn_19
+    21300040: TremorSpawn_20
+    21300042: TremorSpawn_21
+    21300044: TremorSpawn_22
+    21300046: TremorSpawn_23
+    21300048: TremorSpawn_24
+    21300050: TremorSpawn_25
+    21300052: TremorSpawn_26
+    21300054: TremorSpawn_27
+    21300056: TremorSpawn_28
+    21300058: TremorSpawn_29
+    21300060: TremorSpawn_30
+    21300062: TremorSpawn_31
+    21300064: TremorSpawn_32
+    21300066: TremorSpawn_33
+    21300068: TremorSpawn_34
+    21300070: TremorSpawn_35
+    21300072: TremorSpawn_36
+    21300074: TremorSpawn_37
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TremorSpawn_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 884
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 884
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 884
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_3
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 884
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_4
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 884
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_5
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 884
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_6
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 884
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_7
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 884
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_8
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 884
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 739
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_10
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 739
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_11
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 739
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_12
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 739
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_13
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 739
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_14
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 739
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_15
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 739
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_16
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 739
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_17
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 739
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 594
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_20
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 594
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_21
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 594
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_22
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 594
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_23
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 594
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_24
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 594
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_25
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 594
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_26
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 594
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 449
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_28
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 449
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_29
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 449
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_30
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 449
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_31
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 449
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_32
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 449
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_33
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 449
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_34
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 449
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_35
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 449
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TremorSpawn_37
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 304
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

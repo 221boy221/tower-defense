@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 365b3b63bb7325c4287a175e290b5999
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SMELTER_0
+    21300002: SMELTER_1
+    21300004: SMELTER_2
+    21300006: SMELTER_3
+    21300008: SMELTER_4
+    21300010: SMELTER_5
+    21300012: SMELTER_6
+    21300014: SMELTER_7
+    21300016: SMELTER_8
+    21300018: SMELTER_9
+    21300020: SMELTER_10
+    21300022: SMELTER_11
+    21300024: SMELTER_12
+    21300026: SMELTER_13
+    21300028: SMELTER_14
+    21300030: SMELTER_15
+    21300032: SMELTER_16
+    21300034: SMELTER_17
+    21300036: SMELTER_18
+    21300038: SMELTER_19
+    21300040: SMELTER_20
+    21300042: SMELTER_21
+    21300044: SMELTER_22
+    21300046: SMELTER_23
+    21300048: SMELTER_24
+    21300050: SMELTER_25
+    21300052: SMELTER_26
+    21300054: SMELTER_27
+    21300056: SMELTER_28
+    21300058: SMELTER_29
+    21300060: SMELTER_30
+    21300062: SMELTER_31
+    21300064: SMELTER_32
+    21300066: SMELTER_33
+    21300068: SMELTER_34
+    21300070: SMELTER_35
+    21300072: SMELTER_36
+    21300074: SMELTER_37
+    21300076: SMELTER_38
+    21300078: SMELTER_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SMELTER_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 894
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 894
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 894
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_3
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 894
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_4
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 894
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_5
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 894
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_6
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 894
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_7
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 894
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_8
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 894
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_9
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 894
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 754
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 754
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_12
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 754
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_13
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 754
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_14
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 754
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_15
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 754
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_16
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 754
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_17
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 754
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_18
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 754
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_19
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 754
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 614
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 614
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_22
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 614
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_23
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 614
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_24
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 614
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_25
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 614
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_26
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 614
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_27
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 614
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_28
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 614
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_29
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 614
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 474
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_31
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 474
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_32
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 474
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_33
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 474
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_34
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 474
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_35
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 474
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_36
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 474
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_37
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 474
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_38
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 474
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMELTER_39
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 474
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Tower01
+  m_Name: TowerAnims
   serializedVersion: 2
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -69,7 +69,7 @@ State:
   m_Speed: -2
   m_CycleOffset: .5
   m_Motions:
-  - {fileID: 7400000, guid: 45406f35244111745a33b5e43e04c4fd, type: 2}
+  - {fileID: 7400000, guid: aa222d3025986bc43a6b1fbc47a2f0d7, type: 2}
   m_ParentStateMachine: {fileID: 110745890}
   m_Position: {x: 24, y: 216, z: 0}
   m_IKOnFeet: 0
@@ -84,7 +84,7 @@ State:
   m_Speed: 2
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 45406f35244111745a33b5e43e04c4fd, type: 2}
+  - {fileID: 7400000, guid: aa222d3025986bc43a6b1fbc47a2f0d7, type: 2}
   m_ParentStateMachine: {fileID: 110745890}
   m_Position: {x: -96, y: 84, z: 0}
   m_IKOnFeet: 0
@@ -99,7 +99,7 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: bb03c9729a3580c489386b07b14c1745, type: 2}
+  - {fileID: 0}
   m_ParentStateMachine: {fileID: 110745890}
   m_Position: {x: 156, y: 84, z: 0}
   m_IKOnFeet: 0
@@ -114,7 +114,7 @@ State:
   m_Speed: 2
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 0156893f4b43db741bd74940d49bf3b3, type: 2}
+  - {fileID: 7400000, guid: 85b5f8244543f0a4eaa2d75e38ced64f, type: 2}
   m_ParentStateMachine: {fileID: 110745890}
   m_Position: {x: 24, y: 144, z: 0}
   m_IKOnFeet: 0
@@ -144,12 +144,12 @@ StateMachine:
       second:
       - {fileID: 110130160}
     data:
+      first: {fileID: 110273478}
+      second: []
+    data:
       first: {fileID: 110273480}
       second:
       - {fileID: 110153298}
-    data:
-      first: {fileID: 110273478}
-      second: []
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

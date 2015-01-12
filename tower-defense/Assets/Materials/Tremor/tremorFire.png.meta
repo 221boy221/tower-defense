@@ -1,0 +1,1125 @@
+fileFormatVersion: 2
+guid: 9254674e1fe093549acbbea8ff12abf9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: tremorFire_0
+    21300002: tremorFire_1
+    21300004: tremorFire_2
+    21300006: tremorFire_3
+    21300008: tremorFire_4
+    21300010: tremorFire_5
+    21300012: tremorFire_6
+    21300014: tremorFire_7
+    21300016: tremorFire_8
+    21300018: tremorFire_9
+    21300020: tremorFire_10
+    21300022: tremorFire_11
+    21300024: tremorFire_12
+    21300026: tremorFire_13
+    21300028: tremorFire_14
+    21300030: tremorFire_15
+    21300032: tremorFire_16
+    21300034: tremorFire_17
+    21300036: tremorFire_18
+    21300038: tremorFire_19
+    21300040: tremorFire_20
+    21300042: tremorFire_21
+    21300044: tremorFire_22
+    21300046: tremorFire_23
+    21300048: tremorFire_24
+    21300050: tremorFire_25
+    21300052: tremorFire_26
+    21300054: tremorFire_27
+    21300056: tremorFire_28
+    21300058: tremorFire_29
+    21300060: tremorFire_30
+    21300062: tremorFire_31
+    21300064: tremorFire_32
+    21300066: tremorFire_33
+    21300068: tremorFire_34
+    21300070: tremorFire_35
+    21300072: tremorFire_36
+    21300074: tremorFire_37
+    21300076: tremorFire_38
+    21300078: tremorFire_39
+    21300080: tremorFire_40
+    21300082: tremorFire_41
+    21300084: tremorFire_42
+    21300086: tremorFire_43
+    21300088: tremorFire_44
+    21300090: tremorFire_45
+    21300092: tremorFire_46
+    21300094: tremorFire_47
+    21300096: tremorFire_48
+    21300098: tremorFire_49
+    21300100: tremorFire_50
+    21300102: tremorFire_51
+    21300104: tremorFire_52
+    21300106: tremorFire_53
+    21300108: tremorFire_54
+    21300110: tremorFire_55
+    21300112: tremorFire_56
+    21300114: tremorFire_57
+    21300116: tremorFire_58
+    21300118: tremorFire_59
+    21300120: tremorFire_60
+    21300122: tremorFire_61
+    21300124: tremorFire_62
+    21300126: tremorFire_63
+    21300128: tremorFire_64
+    21300130: tremorFire_65
+    21300132: tremorFire_66
+    21300134: tremorFire_67
+    21300136: tremorFire_68
+    21300138: tremorFire_69
+    21300140: tremorFire_70
+    21300142: tremorFire_71
+    21300144: tremorFire_72
+    21300146: tremorFire_73
+    21300148: tremorFire_74
+    21300150: tremorFire_75
+    21300152: tremorFire_76
+    21300154: tremorFire_77
+    21300156: tremorFire_78
+    21300158: tremorFire_79
+    21300160: tremorFire_80
+    21300162: tremorFire_81
+    21300164: tremorFire_82
+    21300166: tremorFire_83
+    21300168: tremorFire_84
+    21300170: tremorFire_85
+    21300172: tremorFire_86
+    21300174: tremorFire_87
+    21300176: tremorFire_88
+    21300178: tremorFire_89
+    21300180: tremorFire_90
+    21300182: tremorFire_91
+    21300184: tremorFire_92
+    21300186: tremorFire_93
+    21300188: tremorFire_94
+    21300190: tremorFire_95
+    21300192: tremorFire_96
+    21300194: tremorFire_97
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: tremorFire_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_4
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_5
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_6
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_7
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_8
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_9
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_10
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_11
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_12
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_13
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_14
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_15
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_16
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_17
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_18
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1864
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_20
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_21
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_22
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_23
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_24
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_25
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_26
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_27
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_28
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_29
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_30
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_31
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_32
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_33
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_34
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_35
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_36
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_37
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1675
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_39
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_40
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_41
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_42
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_43
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_44
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_45
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_46
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_47
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_48
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_49
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_50
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_51
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_52
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_53
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_54
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_55
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_56
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1486
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_58
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_59
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_60
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_61
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_62
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_63
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_64
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_65
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_66
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_67
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_68
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_69
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_70
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_71
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_72
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_73
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_74
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_75
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1297
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_77
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_78
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_79
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_80
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_81
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_82
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_83
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_84
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_85
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_86
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_87
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_88
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_89
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_90
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_91
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_92
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_93
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_94
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1108
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 919
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_96
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 919
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tremorFire_97
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 919
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

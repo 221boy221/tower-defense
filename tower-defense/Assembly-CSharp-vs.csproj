@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scripts\Towers\Bullet.cs" />
      <Compile Include="Assets\Scripts\Towers\Tower.cs" />
      <Compile Include="Assets\Scripts\Towers\TowerSlot.cs" />
+     <Compile Include="Assets\Scripts\Towers\Tower_Artillery.cs" />
      <Compile Include="Assets\Scripts\Towers\Tower_Smelter.cs" />
      <Compile Include="Assets\Scripts\Towers\Tower_Tesla.cs" />
      <Compile Include="Assets\Scripts\Towers\Tower_Tremor.cs" />

@@ -8,6 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400000}
+  - 95: {fileID: 9500000}
   - 212: {fileID: 21200000}
   - 114: {fileID: 11431834}
   m_Layer: 0
@@ -25,10 +26,25 @@ Transform:
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: .300000012, y: .300000012, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!95 &9500000
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 203526e15bb7b344cbefeb82820cc4e0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11431834
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -40,12 +56,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a823478f62cf4674a9b3f7da65e19a06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _canFire: 0
-  _anim: {fileID: 0}
-  interval: 2
-  range: 10
-  timeLeft: 0
-  damage: 0
   bulletPrefab: {fileID: 11400000, guid: df834c063ee97104392c59a443c1a074, type: 2}
   buildPrice: 1
 --- !u!212 &21200000
@@ -68,8 +78,8 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: af30c00d260158f4e9aca91364deb847, type: 3}
-  m_Color: {r: .406896591, g: 0, b: 1, a: 1}
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

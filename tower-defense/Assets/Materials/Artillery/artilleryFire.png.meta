@@ -1,0 +1,575 @@
+fileFormatVersion: 2
+guid: e92312c784fb88b478045f5254a38079
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: artilleryFire_0
+    21300002: artilleryFire_1
+    21300004: artilleryFire_2
+    21300006: artilleryFire_3
+    21300008: artilleryFire_4
+    21300010: artilleryFire_5
+    21300012: artilleryFire_6
+    21300014: artilleryFire_7
+    21300016: artilleryFire_8
+    21300018: artilleryFire_9
+    21300020: artilleryFire_10
+    21300022: artilleryFire_11
+    21300024: artilleryFire_12
+    21300026: artilleryFire_13
+    21300028: artilleryFire_14
+    21300030: artilleryFire_15
+    21300032: artilleryFire_16
+    21300034: artilleryFire_17
+    21300036: artilleryFire_18
+    21300038: artilleryFire_19
+    21300040: artilleryFire_20
+    21300042: artilleryFire_21
+    21300044: artilleryFire_22
+    21300046: artilleryFire_23
+    21300048: artilleryFire_24
+    21300050: artilleryFire_25
+    21300052: artilleryFire_26
+    21300054: artilleryFire_27
+    21300056: artilleryFire_28
+    21300058: artilleryFire_29
+    21300060: artilleryFire_30
+    21300062: artilleryFire_31
+    21300064: artilleryFire_32
+    21300066: artilleryFire_33
+    21300068: artilleryFire_34
+    21300070: artilleryFire_35
+    21300072: artilleryFire_36
+    21300074: artilleryFire_37
+    21300076: artilleryFire_38
+    21300078: artilleryFire_39
+    21300080: artilleryFire_40
+    21300082: artilleryFire_41
+    21300084: artilleryFire_42
+    21300086: artilleryFire_43
+    21300088: artilleryFire_44
+    21300090: artilleryFire_45
+    21300092: artilleryFire_46
+    21300094: artilleryFire_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: artilleryFire_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1847
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1847
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1847
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1847
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_4
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1847
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_5
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1847
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_6
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1847
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_7
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1847
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1641
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_9
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1641
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1641
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_11
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1641
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_12
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1641
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_13
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1641
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_14
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1641
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_15
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1641
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1435
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_17
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1435
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_18
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1435
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_19
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1435
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_20
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1435
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_21
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1435
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_22
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1435
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_23
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1435
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1229
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_25
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1229
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_26
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1229
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_27
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1229
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_28
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1229
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_29
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1229
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_30
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1229
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_31
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1229
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1023
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_33
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1023
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_34
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1023
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_35
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1023
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_36
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1023
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_37
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1023
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_38
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1023
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_39
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1023
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 817
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_41
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 817
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_42
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 817
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_43
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 817
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_44
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 817
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_45
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 817
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_46
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 817
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: artilleryFire_47
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 817
+        width: 117
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

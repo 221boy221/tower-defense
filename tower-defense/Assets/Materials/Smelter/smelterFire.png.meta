@@ -1,0 +1,553 @@
+fileFormatVersion: 2
+guid: f3f5d8c4792797e4d888fbc4e8003d7f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: smelterFire_0
+    21300002: smelterFire_1
+    21300004: smelterFire_2
+    21300006: smelterFire_3
+    21300008: smelterFire_4
+    21300010: smelterFire_5
+    21300012: smelterFire_6
+    21300014: smelterFire_7
+    21300016: smelterFire_8
+    21300018: smelterFire_9
+    21300020: smelterFire_10
+    21300022: smelterFire_11
+    21300024: smelterFire_12
+    21300026: smelterFire_13
+    21300028: smelterFire_14
+    21300030: smelterFire_15
+    21300032: smelterFire_16
+    21300034: smelterFire_17
+    21300036: smelterFire_18
+    21300038: smelterFire_19
+    21300040: smelterFire_20
+    21300042: smelterFire_21
+    21300044: smelterFire_22
+    21300046: smelterFire_23
+    21300048: smelterFire_24
+    21300050: smelterFire_25
+    21300052: smelterFire_26
+    21300054: smelterFire_27
+    21300056: smelterFire_28
+    21300058: smelterFire_29
+    21300060: smelterFire_30
+    21300062: smelterFire_31
+    21300064: smelterFire_32
+    21300066: smelterFire_33
+    21300068: smelterFire_34
+    21300070: smelterFire_35
+    21300072: smelterFire_36
+    21300074: smelterFire_37
+    21300076: smelterFire_38
+    21300078: smelterFire_39
+    21300080: smelterFire_40
+    21300082: smelterFire_41
+    21300084: smelterFire_42
+    21300086: smelterFire_43
+    21300088: smelterFire_44
+    21300090: smelterFire_45
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: smelterFire_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 889
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 889
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 889
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 889
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_4
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 889
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_5
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 889
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_6
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 889
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_7
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 889
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_8
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 889
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 749
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 749
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 749
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 749
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 749
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_14
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 749
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_15
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 749
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_16
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 749
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_17
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 749
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 609
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_19
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 609
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_20
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 609
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_21
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 609
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_22
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 609
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_23
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 609
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_24
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 609
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_25
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 609
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_26
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 609
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 469
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 469
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_29
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 469
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_30
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 469
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_31
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 469
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_32
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 469
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_33
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 469
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_34
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 469
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_35
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 469
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_37
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 329
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_38
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 329
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_39
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 329
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_40
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 329
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_41
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 329
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_42
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 329
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_43
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 329
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_44
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 329
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smelterFire_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

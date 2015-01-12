@@ -1,0 +1,916 @@
+fileFormatVersion: 2
+guid: 76ac1b2a690f33f4187d6e3c72eedba7
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: level_1_plan_B_0
+    21300002: level_1_plan_B_1
+    21300004: level_1_plan_B_2
+    21300006: level_1_plan_B_3
+    21300008: level_1_plan_B_4
+    21300010: level_1_plan_B_5
+    21300012: level_1_plan_B_6
+    21300014: level_1_plan_B_7
+    21300016: level_1_plan_B_8
+    21300018: level_1_plan_B_9
+    21300020: level_1_plan_B_10
+    21300022: level_1_plan_B_11
+    21300024: level_1_plan_B_12
+    21300026: level_1_plan_B_13
+    21300028: level_1_plan_B_14
+    21300030: level_1_plan_B_15
+    21300032: level_1_plan_B_16
+    21300034: level_1_plan_B_17
+    21300036: level_1_plan_B_18
+    21300038: level_1_plan_B_19
+    21300040: level_1_plan_B_20
+    21300042: level_1_plan_B_21
+    21300044: level_1_plan_B_22
+    21300046: level_1_plan_B_23
+    21300048: level_1_plan_B_24
+    21300050: level_1_plan_B_25
+    21300052: level_1_plan_B_26
+    21300054: level_1_plan_B_27
+    21300056: level_1_plan_B_28
+    21300058: level_1_plan_B_29
+    21300060: level_1_plan_B_30
+    21300062: level_1_plan_B_31
+    21300064: level_1_plan_B_32
+    21300066: level_1_plan_B_33
+    21300068: level_1_plan_B_34
+    21300070: level_1_plan_B_35
+    21300072: level_1_plan_B_36
+    21300074: level_1_plan_B_37
+    21300076: level_1_plan_B_38
+    21300078: level_1_plan_B_39
+    21300080: level_1_plan_B_40
+    21300082: level_1_plan_B_41
+    21300084: level_1_plan_B_42
+    21300086: level_1_plan_B_43
+    21300088: level_1_plan_B_44
+    21300090: level_1_plan_B_45
+    21300092: level_1_plan_B_46
+    21300094: level_1_plan_B_47
+    21300096: level_1_plan_B_48
+    21300098: level_1_plan_B_49
+    21300100: level_1_plan_B_50
+    21300102: level_1_plan_B_51
+    21300104: level_1_plan_B_52
+    21300106: level_1_plan_B_53
+    21300108: level_1_plan_B_54
+    21300110: level_1_plan_B_55
+    21300112: level_1_plan_B_56
+    21300114: level_1_plan_B_57
+    21300116: level_1_plan_B_58
+    21300118: level_1_plan_B_59
+    21300120: level_1_plan_B_60
+    21300122: level_1_plan_B_61
+    21300124: level_1_plan_B_62
+    21300126: level_1_plan_B_63
+    21300128: level_1_plan_B_64
+    21300130: level_1_plan_B_65
+    21300132: level_1_plan_B_66
+    21300134: level_1_plan_B_67
+    21300136: level_1_plan_B_68
+    21300138: level_1_plan_B_69
+    21300140: level_1_plan_B_70
+    21300142: level_1_plan_B_71
+    21300144: level_1_plan_B_72
+    21300146: level_1_plan_B_73
+    21300148: level_1_plan_B_74
+    21300150: level_1_plan_B_75
+    21300152: level_1_plan_B_76
+    21300154: level_1_plan_B_77
+    21300156: level_1_plan_B_78
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: level_1_plan_B_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1898
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1898
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1898
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1898
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1898
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1898
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1898
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1898
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1898
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1898
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1743
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1743
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1743
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1743
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1743
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1743
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_16
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1743
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1743
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1743
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_19
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1743
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1588
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1588
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1588
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1588
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1588
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_25
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1588
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1588
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_27
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1588
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1588
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_29
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1588
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1433
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1433
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1433
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1433
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1433
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_35
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1433
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1433
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_37
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1433
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1433
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_39
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1433
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1278
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1278
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1278
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1278
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1278
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_45
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1278
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_46
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1278
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_47
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1278
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_48
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1278
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_49
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1278
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1123
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1123
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1123
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1123
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1123
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_55
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1123
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_56
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1123
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_57
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1123
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_58
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1123
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_59
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1123
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 968
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 968
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 968
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_63
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 968
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_64
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 968
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_65
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 968
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_66
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 968
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_67
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 968
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_68
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 968
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_69
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 968
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 813
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 813
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 813
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 813
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 813
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 813
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_76
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 813
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_77
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 813
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level_1_plan_B_78
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 813
+        width: 91
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

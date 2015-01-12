@@ -12,7 +12,6 @@ public class TowerSlot : MonoBehaviour {
     private bool occupied = false;
     private int towerID;
     private Tower tower;
-    private Animator anim;
     
     void Start() {
         buyMenu.SetActive(false);
@@ -34,7 +33,6 @@ public class TowerSlot : MonoBehaviour {
             Player.gold -= towers[towerType].buildPrice;
             // Spawn tower
             tower = (Tower) Instantiate(towers[towerType], transform.position, Quaternion.identity);
-            anim = tower.GetComponent<Animator>();
             // Slot is now occupied
             occupied = true;
             // Hide active menu
@@ -48,10 +46,7 @@ public class TowerSlot : MonoBehaviour {
 
     public void SellTower() {
         // Remove tower
-        //tower //animation.Play("animSell");
-        anim.Play("animSell");
-
-        DestroyObject(tower.gameObject, 4);
+        tower.SellTower();
         // Return gold
         Player.gold += tower.buildPrice;
         // Slot is no longer occupied
