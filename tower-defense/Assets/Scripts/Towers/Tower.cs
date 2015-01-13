@@ -16,11 +16,11 @@ public class Tower : MonoBehaviour {
     public Bullet bulletPrefab = null;
     public int buildPrice = 1;
 
-    Enemy_Default findClosestTarget() {
-        Enemy_Default closest = null;
+    Enemy findClosestTarget() {
+        Enemy closest = null;
         Vector3 pos = transform.position;
 
-        Enemy_Default[] enemies = (Enemy_Default[])FindObjectsOfType(typeof(Enemy_Default));
+        Enemy[] enemies = (Enemy[])FindObjectsOfType(typeof(Enemy));
         // If array isn't empty
         if (enemies != null) {
             if (enemies.Length > 0) {
@@ -62,7 +62,7 @@ public class Tower : MonoBehaviour {
 
     IEnumerator FindTarget() {
         // Get closest target
-        Enemy_Default target = findClosestTarget();
+        Enemy target = findClosestTarget();
         if (target != null) {
             // Check if in range
             if (Vector3.Distance(transform.position, target.transform.position) <= range) {
@@ -82,7 +82,7 @@ public class Tower : MonoBehaviour {
         }
     }
 
-    public virtual void Fire(Enemy_Default target) {
+    public virtual void Fire(Enemy target) {
 
     }
 

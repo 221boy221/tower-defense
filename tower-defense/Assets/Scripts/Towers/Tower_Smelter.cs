@@ -7,12 +7,12 @@ public class Tower_Smelter : Tower {
 
     void Start() {
         buildPrice  = 1;
-        interval    = 4.0f;
-        range       = 20.0f;
-        damage      = 20.0f;
+        interval    = 0.5f;
+        range       = 5.0f;
+        damage      = 5.0f;
     }
 
-    public override void Fire(Enemy_Default target) {
+    public override void Fire(Enemy target) {
         // spawn bullet
         GameObject g = (GameObject)Instantiate(bulletPrefab.gameObject, transform.position, Quaternion.identity);
         // get access to bullet component

@@ -7,12 +7,12 @@ public class Tower_Tremor : Tower {
     private float _cooldown;
     void Start() {
         buildPrice  = 1;
-        interval    = 0.5f;
-        range       = 10.0f;
-        damage      = 2.5f;
+        interval    = 5.0f;
+        range       = 2.5f;
+        damage      = 5.0f;
     }
 
-    public override void Fire(Enemy_Default target) {
+    public override void Fire(Enemy target) {
         /*
         // spawn bullet
         GameObject g = (GameObject)Instantiate(bulletPrefab.gameObject, transform.position, Quaternion.identity);
@@ -24,7 +24,7 @@ public class Tower_Tremor : Tower {
         Vector3 pos = transform.position;
         */
         //check all enemies
-        Enemy_Default[] enemies = (Enemy_Default[])FindObjectsOfType(typeof(Enemy_Default));
+        Enemy[] enemies = (Enemy[])FindObjectsOfType(typeof(Enemy_Default));
         // If array isn't empty
         if (enemies != null)
         {

@@ -7,12 +7,12 @@ public class Tower_Artillery : Tower {
 
     void Start() {
         buildPrice  = 1;
-        interval    = 2.0f;
+        interval    = 5.0f;
         range       = 10.0f;
-        damage      = 10.0f;
+        damage      = 25.0f;
     }
 
-    public override void Fire(Enemy_Default target) {
+    public override void Fire(Enemy target) {
         // spawn bullet
         GameObject g = (GameObject)Instantiate(bulletPrefab.gameObject, transform.position, Quaternion.identity);
         // get access to bullet component
