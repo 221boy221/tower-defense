@@ -13,8 +13,8 @@ public class Player : MonoBehaviour {
         GUI.skin = skin;
 
         // temp UI
-        GUI.Label(new Rect(0, 0, 400, 200), "Gold: " + gold);
-        GUI.Label(new Rect(0, 20, 400, 200), "HP: " + hp);
+        GUI.Label(new Rect(5, 0, 400, 200), "Gold: " + gold);
+        GUI.Label(new Rect(5, 20, 400, 200), "HP: " + hp);
         
     }
 

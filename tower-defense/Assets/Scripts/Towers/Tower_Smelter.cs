@@ -6,7 +6,7 @@ using System.Collections;
 public class Tower_Smelter : Tower {
 
     void Start() {
-        buildPrice  = 1;
+        buildPrice  = 100;
         interval    = 0.5f;
         range       = 5.0f;
         damage      = 5.0f;

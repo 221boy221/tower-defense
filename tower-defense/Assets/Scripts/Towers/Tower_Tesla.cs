@@ -6,7 +6,7 @@ using System.Collections;
 public class Tower_Tesla : Tower {
 
     void Start() {
-        buildPrice  = 1;
+        buildPrice  = 100;
         interval    = 2.0f;
         range       = 5.0f;
         damage      = 10.0f;

@@ -115,7 +115,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: .25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
@@ -148,8 +148,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_1
       rect:
@@ -158,8 +158,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_2
       rect:
@@ -168,8 +168,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_3
       rect:
@@ -178,8 +178,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_4
       rect:
@@ -188,8 +188,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_5
       rect:
@@ -198,8 +198,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_6
       rect:
@@ -208,8 +208,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_7
       rect:
@@ -218,8 +218,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_8
       rect:
@@ -228,8 +228,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_9
       rect:
@@ -238,8 +238,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_10
       rect:
@@ -248,8 +248,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_11
       rect:
@@ -258,8 +258,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_12
       rect:
@@ -268,8 +268,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_13
       rect:
@@ -278,8 +278,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_14
       rect:
@@ -288,8 +288,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_15
       rect:
@@ -298,8 +298,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_16
       rect:
@@ -308,8 +308,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_17
       rect:
@@ -318,8 +318,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_18
       rect:
@@ -328,8 +328,8 @@ TextureImporter:
         y: 1864
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_19
       rect:
@@ -338,8 +338,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_20
       rect:
@@ -348,8 +348,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_21
       rect:
@@ -358,8 +358,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_22
       rect:
@@ -368,8 +368,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_23
       rect:
@@ -378,8 +378,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_24
       rect:
@@ -388,8 +388,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_25
       rect:
@@ -398,8 +398,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_26
       rect:
@@ -408,8 +408,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_27
       rect:
@@ -418,8 +418,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_28
       rect:
@@ -428,8 +428,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_29
       rect:
@@ -438,8 +438,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_30
       rect:
@@ -448,8 +448,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_31
       rect:
@@ -458,8 +458,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_32
       rect:
@@ -468,8 +468,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_33
       rect:
@@ -478,8 +478,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_34
       rect:
@@ -488,8 +488,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_35
       rect:
@@ -498,8 +498,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_36
       rect:
@@ -508,8 +508,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_37
       rect:
@@ -518,8 +518,8 @@ TextureImporter:
         y: 1675
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_38
       rect:
@@ -528,8 +528,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_39
       rect:
@@ -538,8 +538,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_40
       rect:
@@ -548,8 +548,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_41
       rect:
@@ -558,8 +558,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_42
       rect:
@@ -568,8 +568,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_43
       rect:
@@ -578,8 +578,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_44
       rect:
@@ -588,8 +588,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_45
       rect:
@@ -598,8 +598,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_46
       rect:
@@ -608,8 +608,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_47
       rect:
@@ -618,8 +618,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_48
       rect:
@@ -628,8 +628,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_49
       rect:
@@ -638,8 +638,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_50
       rect:
@@ -648,8 +648,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_51
       rect:
@@ -658,8 +658,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_52
       rect:
@@ -668,8 +668,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_53
       rect:
@@ -678,8 +678,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_54
       rect:
@@ -688,8 +688,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_55
       rect:
@@ -698,8 +698,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_56
       rect:
@@ -708,8 +708,8 @@ TextureImporter:
         y: 1486
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_57
       rect:
@@ -718,8 +718,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_58
       rect:
@@ -728,8 +728,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_59
       rect:
@@ -738,8 +738,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_60
       rect:
@@ -748,8 +748,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_61
       rect:
@@ -758,8 +758,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_62
       rect:
@@ -768,8 +768,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_63
       rect:
@@ -778,8 +778,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_64
       rect:
@@ -788,8 +788,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_65
       rect:
@@ -798,8 +798,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_66
       rect:
@@ -808,8 +808,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_67
       rect:
@@ -818,8 +818,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_68
       rect:
@@ -828,8 +828,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_69
       rect:
@@ -838,8 +838,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_70
       rect:
@@ -848,8 +848,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_71
       rect:
@@ -858,8 +858,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_72
       rect:
@@ -868,8 +868,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_73
       rect:
@@ -878,8 +878,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_74
       rect:
@@ -888,8 +888,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_75
       rect:
@@ -898,8 +898,8 @@ TextureImporter:
         y: 1297
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_76
       rect:
@@ -908,8 +908,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_77
       rect:
@@ -918,8 +918,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_78
       rect:
@@ -928,8 +928,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_79
       rect:
@@ -938,8 +938,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_80
       rect:
@@ -948,8 +948,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_81
       rect:
@@ -958,8 +958,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_82
       rect:
@@ -968,8 +968,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_83
       rect:
@@ -978,8 +978,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_84
       rect:
@@ -988,8 +988,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_85
       rect:
@@ -998,8 +998,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_86
       rect:
@@ -1008,8 +1008,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_87
       rect:
@@ -1018,8 +1018,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_88
       rect:
@@ -1028,8 +1028,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_89
       rect:
@@ -1038,8 +1038,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_90
       rect:
@@ -1048,8 +1048,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_91
       rect:
@@ -1058,8 +1058,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_92
       rect:
@@ -1068,8 +1068,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_93
       rect:
@@ -1078,8 +1078,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_94
       rect:
@@ -1088,8 +1088,8 @@ TextureImporter:
         y: 1108
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_95
       rect:
@@ -1098,8 +1098,8 @@ TextureImporter:
         y: 919
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_96
       rect:
@@ -1108,8 +1108,8 @@ TextureImporter:
         y: 919
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tremorFire_97
       rect:
@@ -1118,8 +1118,8 @@ TextureImporter:
         y: 919
         width: 100
         height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

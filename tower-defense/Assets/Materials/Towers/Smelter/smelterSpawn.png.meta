@@ -42,6 +42,46 @@ TextureImporter:
     21300074: SMELTER_37
     21300076: SMELTER_38
     21300078: SMELTER_39
+    21300080: smelterSpawn_0
+    21300082: smelterSpawn_1
+    21300084: smelterSpawn_2
+    21300086: smelterSpawn_3
+    21300088: smelterSpawn_4
+    21300090: smelterSpawn_5
+    21300092: smelterSpawn_6
+    21300094: smelterSpawn_7
+    21300096: smelterSpawn_8
+    21300098: smelterSpawn_9
+    21300100: smelterSpawn_10
+    21300102: smelterSpawn_11
+    21300104: smelterSpawn_12
+    21300106: smelterSpawn_13
+    21300108: smelterSpawn_14
+    21300110: smelterSpawn_15
+    21300112: smelterSpawn_16
+    21300114: smelterSpawn_17
+    21300116: smelterSpawn_18
+    21300118: smelterSpawn_19
+    21300120: smelterSpawn_20
+    21300122: smelterSpawn_21
+    21300124: smelterSpawn_22
+    21300126: smelterSpawn_23
+    21300128: smelterSpawn_24
+    21300130: smelterSpawn_25
+    21300132: smelterSpawn_26
+    21300134: smelterSpawn_27
+    21300136: smelterSpawn_28
+    21300138: smelterSpawn_29
+    21300140: smelterSpawn_30
+    21300142: smelterSpawn_31
+    21300144: smelterSpawn_32
+    21300146: smelterSpawn_33
+    21300148: smelterSpawn_34
+    21300150: smelterSpawn_35
+    21300152: smelterSpawn_36
+    21300154: smelterSpawn_37
+    21300156: smelterSpawn_38
+    21300158: smelterSpawn_39
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,7 +97,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: .25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
@@ -83,405 +123,405 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: SMELTER_0
+    - name: smelterSpawn_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 894
+        y: 892
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_1
+    - name: smelterSpawn_1
       rect:
         serializedVersion: 2
         x: 99
-        y: 894
+        y: 892
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_2
+    - name: smelterSpawn_2
       rect:
         serializedVersion: 2
         x: 198
-        y: 894
+        y: 892
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_3
+    - name: smelterSpawn_3
       rect:
         serializedVersion: 2
         x: 297
-        y: 894
+        y: 892
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_4
+    - name: smelterSpawn_4
       rect:
         serializedVersion: 2
         x: 396
-        y: 894
+        y: 892
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_5
+    - name: smelterSpawn_5
       rect:
         serializedVersion: 2
         x: 495
-        y: 894
+        y: 892
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_6
+    - name: smelterSpawn_6
       rect:
         serializedVersion: 2
         x: 594
-        y: 894
+        y: 892
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_7
+    - name: smelterSpawn_7
       rect:
         serializedVersion: 2
         x: 693
-        y: 894
+        y: 892
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_8
+    - name: smelterSpawn_8
       rect:
         serializedVersion: 2
         x: 792
-        y: 894
+        y: 892
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_9
+    - name: smelterSpawn_9
       rect:
         serializedVersion: 2
         x: 891
-        y: 894
+        y: 892
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_10
+    - name: smelterSpawn_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 754
+        y: 755
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_11
+    - name: smelterSpawn_11
       rect:
         serializedVersion: 2
         x: 99
-        y: 754
+        y: 755
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_12
+    - name: smelterSpawn_12
       rect:
         serializedVersion: 2
         x: 198
-        y: 754
+        y: 755
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_13
+    - name: smelterSpawn_13
       rect:
         serializedVersion: 2
         x: 297
-        y: 754
+        y: 755
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_14
+    - name: smelterSpawn_14
       rect:
         serializedVersion: 2
         x: 396
-        y: 754
+        y: 755
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_15
+    - name: smelterSpawn_15
       rect:
         serializedVersion: 2
         x: 495
-        y: 754
+        y: 755
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_16
+    - name: smelterSpawn_16
       rect:
         serializedVersion: 2
         x: 594
-        y: 754
+        y: 755
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_17
+    - name: smelterSpawn_17
       rect:
         serializedVersion: 2
         x: 693
-        y: 754
+        y: 755
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_18
+    - name: smelterSpawn_18
       rect:
         serializedVersion: 2
         x: 792
-        y: 754
+        y: 755
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_19
+    - name: smelterSpawn_19
       rect:
         serializedVersion: 2
         x: 891
-        y: 754
+        y: 755
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_20
+    - name: smelterSpawn_20
       rect:
         serializedVersion: 2
         x: 0
-        y: 614
+        y: 618
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_21
+    - name: smelterSpawn_21
       rect:
         serializedVersion: 2
         x: 99
-        y: 614
+        y: 618
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_22
+    - name: smelterSpawn_22
       rect:
         serializedVersion: 2
         x: 198
-        y: 614
+        y: 618
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_23
+    - name: smelterSpawn_23
       rect:
         serializedVersion: 2
         x: 297
-        y: 614
+        y: 618
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_24
+    - name: smelterSpawn_24
       rect:
         serializedVersion: 2
         x: 396
-        y: 614
+        y: 618
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_25
+    - name: smelterSpawn_25
       rect:
         serializedVersion: 2
         x: 495
-        y: 614
+        y: 618
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_26
+    - name: smelterSpawn_26
       rect:
         serializedVersion: 2
         x: 594
-        y: 614
+        y: 618
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_27
+    - name: smelterSpawn_27
       rect:
         serializedVersion: 2
         x: 693
-        y: 614
+        y: 618
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_28
+    - name: smelterSpawn_28
       rect:
         serializedVersion: 2
         x: 792
-        y: 614
+        y: 618
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_29
+    - name: smelterSpawn_29
       rect:
         serializedVersion: 2
         x: 891
-        y: 614
+        y: 618
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_30
+    - name: smelterSpawn_30
       rect:
         serializedVersion: 2
         x: 0
-        y: 474
+        y: 481
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_31
+    - name: smelterSpawn_31
       rect:
         serializedVersion: 2
         x: 99
-        y: 474
+        y: 481
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_32
+    - name: smelterSpawn_32
       rect:
         serializedVersion: 2
         x: 198
-        y: 474
+        y: 481
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_33
+    - name: smelterSpawn_33
       rect:
         serializedVersion: 2
         x: 297
-        y: 474
+        y: 481
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_34
+    - name: smelterSpawn_34
       rect:
         serializedVersion: 2
         x: 396
-        y: 474
+        y: 481
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_35
+    - name: smelterSpawn_35
       rect:
         serializedVersion: 2
         x: 495
-        y: 474
+        y: 481
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_36
+    - name: smelterSpawn_36
       rect:
         serializedVersion: 2
         x: 594
-        y: 474
+        y: 481
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_37
+    - name: smelterSpawn_37
       rect:
         serializedVersion: 2
         x: 693
-        y: 474
+        y: 481
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_38
+    - name: smelterSpawn_38
       rect:
         serializedVersion: 2
         x: 792
-        y: 474
+        y: 481
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SMELTER_39
+    - name: smelterSpawn_39
       rect:
         serializedVersion: 2
         x: 891
-        y: 474
+        y: 481
         width: 94
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 132
+      alignment: 9
+      pivot: {x: .460000008, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

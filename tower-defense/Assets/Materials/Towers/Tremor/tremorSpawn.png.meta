@@ -55,7 +55,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: .25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
@@ -88,8 +88,8 @@ TextureImporter:
         y: 884
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_1
       rect:
@@ -98,8 +98,8 @@ TextureImporter:
         y: 884
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_2
       rect:
@@ -108,8 +108,8 @@ TextureImporter:
         y: 884
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_3
       rect:
@@ -118,8 +118,8 @@ TextureImporter:
         y: 884
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_4
       rect:
@@ -128,8 +128,8 @@ TextureImporter:
         y: 884
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_5
       rect:
@@ -138,8 +138,8 @@ TextureImporter:
         y: 884
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_6
       rect:
@@ -148,8 +148,8 @@ TextureImporter:
         y: 884
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_7
       rect:
@@ -158,8 +158,8 @@ TextureImporter:
         y: 884
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_8
       rect:
@@ -168,8 +168,8 @@ TextureImporter:
         y: 884
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_9
       rect:
@@ -178,8 +178,8 @@ TextureImporter:
         y: 739
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_10
       rect:
@@ -188,8 +188,8 @@ TextureImporter:
         y: 739
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_11
       rect:
@@ -198,8 +198,8 @@ TextureImporter:
         y: 739
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_12
       rect:
@@ -208,8 +208,8 @@ TextureImporter:
         y: 739
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_13
       rect:
@@ -218,8 +218,8 @@ TextureImporter:
         y: 739
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_14
       rect:
@@ -228,8 +228,8 @@ TextureImporter:
         y: 739
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_15
       rect:
@@ -238,8 +238,8 @@ TextureImporter:
         y: 739
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_16
       rect:
@@ -248,8 +248,8 @@ TextureImporter:
         y: 739
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_17
       rect:
@@ -258,8 +258,8 @@ TextureImporter:
         y: 739
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_18
       rect:
@@ -268,8 +268,8 @@ TextureImporter:
         y: 594
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_19
       rect:
@@ -278,8 +278,8 @@ TextureImporter:
         y: 594
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_20
       rect:
@@ -288,8 +288,8 @@ TextureImporter:
         y: 594
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_21
       rect:
@@ -298,8 +298,8 @@ TextureImporter:
         y: 594
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_22
       rect:
@@ -308,8 +308,8 @@ TextureImporter:
         y: 594
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_23
       rect:
@@ -318,8 +318,8 @@ TextureImporter:
         y: 594
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_24
       rect:
@@ -328,8 +328,8 @@ TextureImporter:
         y: 594
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_25
       rect:
@@ -338,8 +338,8 @@ TextureImporter:
         y: 594
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_26
       rect:
@@ -348,8 +348,8 @@ TextureImporter:
         y: 594
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_27
       rect:
@@ -358,8 +358,8 @@ TextureImporter:
         y: 449
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_28
       rect:
@@ -368,8 +368,8 @@ TextureImporter:
         y: 449
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_29
       rect:
@@ -378,8 +378,8 @@ TextureImporter:
         y: 449
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_30
       rect:
@@ -388,8 +388,8 @@ TextureImporter:
         y: 449
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_31
       rect:
@@ -398,8 +398,8 @@ TextureImporter:
         y: 449
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_32
       rect:
@@ -408,8 +408,8 @@ TextureImporter:
         y: 449
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_33
       rect:
@@ -418,8 +418,8 @@ TextureImporter:
         y: 449
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_34
       rect:
@@ -428,8 +428,8 @@ TextureImporter:
         y: 449
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_35
       rect:
@@ -438,8 +438,8 @@ TextureImporter:
         y: 449
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_36
       rect:
@@ -448,8 +448,8 @@ TextureImporter:
         y: 304
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TremorSpawn_37
       rect:
@@ -458,8 +458,8 @@ TextureImporter:
         y: 304
         width: 101
         height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .25999999}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

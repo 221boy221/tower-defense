@@ -82,7 +82,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: .25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
@@ -115,8 +115,8 @@ TextureImporter:
         y: 899
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_1
       rect:
@@ -125,8 +125,8 @@ TextureImporter:
         y: 899
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_2
       rect:
@@ -135,8 +135,8 @@ TextureImporter:
         y: 899
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_3
       rect:
@@ -145,8 +145,8 @@ TextureImporter:
         y: 899
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_4
       rect:
@@ -155,8 +155,8 @@ TextureImporter:
         y: 899
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_5
       rect:
@@ -165,8 +165,8 @@ TextureImporter:
         y: 899
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_6
       rect:
@@ -175,8 +175,8 @@ TextureImporter:
         y: 899
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_7
       rect:
@@ -185,8 +185,8 @@ TextureImporter:
         y: 899
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_8
       rect:
@@ -195,8 +195,8 @@ TextureImporter:
         y: 899
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_9
       rect:
@@ -205,8 +205,8 @@ TextureImporter:
         y: 899
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_10
       rect:
@@ -215,8 +215,8 @@ TextureImporter:
         y: 899
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_11
       rect:
@@ -225,8 +225,8 @@ TextureImporter:
         y: 764
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_12
       rect:
@@ -235,8 +235,8 @@ TextureImporter:
         y: 764
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_13
       rect:
@@ -245,8 +245,8 @@ TextureImporter:
         y: 764
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_14
       rect:
@@ -255,8 +255,8 @@ TextureImporter:
         y: 764
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_15
       rect:
@@ -265,8 +265,8 @@ TextureImporter:
         y: 764
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_16
       rect:
@@ -275,8 +275,8 @@ TextureImporter:
         y: 764
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_17
       rect:
@@ -285,8 +285,8 @@ TextureImporter:
         y: 764
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_18
       rect:
@@ -295,8 +295,8 @@ TextureImporter:
         y: 764
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_19
       rect:
@@ -305,8 +305,8 @@ TextureImporter:
         y: 764
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_20
       rect:
@@ -315,8 +315,8 @@ TextureImporter:
         y: 764
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_21
       rect:
@@ -325,8 +325,8 @@ TextureImporter:
         y: 764
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_22
       rect:
@@ -335,8 +335,8 @@ TextureImporter:
         y: 629
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_23
       rect:
@@ -345,8 +345,8 @@ TextureImporter:
         y: 629
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_24
       rect:
@@ -355,8 +355,8 @@ TextureImporter:
         y: 629
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_25
       rect:
@@ -365,8 +365,8 @@ TextureImporter:
         y: 629
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_26
       rect:
@@ -375,8 +375,8 @@ TextureImporter:
         y: 629
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_27
       rect:
@@ -385,8 +385,8 @@ TextureImporter:
         y: 629
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_28
       rect:
@@ -395,8 +395,8 @@ TextureImporter:
         y: 629
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_29
       rect:
@@ -405,8 +405,8 @@ TextureImporter:
         y: 629
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_30
       rect:
@@ -415,8 +415,8 @@ TextureImporter:
         y: 629
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_31
       rect:
@@ -425,8 +425,8 @@ TextureImporter:
         y: 629
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_32
       rect:
@@ -435,8 +435,8 @@ TextureImporter:
         y: 629
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_33
       rect:
@@ -445,8 +445,8 @@ TextureImporter:
         y: 494
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_34
       rect:
@@ -455,8 +455,8 @@ TextureImporter:
         y: 494
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_35
       rect:
@@ -465,8 +465,8 @@ TextureImporter:
         y: 494
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_36
       rect:
@@ -475,8 +475,8 @@ TextureImporter:
         y: 494
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_37
       rect:
@@ -485,8 +485,8 @@ TextureImporter:
         y: 494
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_38
       rect:
@@ -495,8 +495,8 @@ TextureImporter:
         y: 494
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_39
       rect:
@@ -505,8 +505,8 @@ TextureImporter:
         y: 494
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_40
       rect:
@@ -515,8 +515,8 @@ TextureImporter:
         y: 494
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_41
       rect:
@@ -525,8 +525,8 @@ TextureImporter:
         y: 494
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_42
       rect:
@@ -535,8 +535,8 @@ TextureImporter:
         y: 494
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_43
       rect:
@@ -545,8 +545,8 @@ TextureImporter:
         y: 494
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_44
       rect:
@@ -555,8 +555,8 @@ TextureImporter:
         y: 359
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_45
       rect:
@@ -565,8 +565,8 @@ TextureImporter:
         y: 359
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_46
       rect:
@@ -575,8 +575,8 @@ TextureImporter:
         y: 359
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_47
       rect:
@@ -585,8 +585,8 @@ TextureImporter:
         y: 359
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_48
       rect:
@@ -595,8 +595,8 @@ TextureImporter:
         y: 359
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_49
       rect:
@@ -605,8 +605,8 @@ TextureImporter:
         y: 359
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_50
       rect:
@@ -615,8 +615,8 @@ TextureImporter:
         y: 359
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_51
       rect:
@@ -625,8 +625,8 @@ TextureImporter:
         y: 359
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_52
       rect:
@@ -635,8 +635,8 @@ TextureImporter:
         y: 359
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_53
       rect:
@@ -645,8 +645,8 @@ TextureImporter:
         y: 359
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_54
       rect:
@@ -655,8 +655,8 @@ TextureImporter:
         y: 359
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_55
       rect:
@@ -665,8 +665,8 @@ TextureImporter:
         y: 224
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_56
       rect:
@@ -675,8 +675,8 @@ TextureImporter:
         y: 224
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_57
       rect:
@@ -685,8 +685,8 @@ TextureImporter:
         y: 224
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_58
       rect:
@@ -695,8 +695,8 @@ TextureImporter:
         y: 224
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_59
       rect:
@@ -705,8 +705,8 @@ TextureImporter:
         y: 224
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_60
       rect:
@@ -715,8 +715,8 @@ TextureImporter:
         y: 224
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_61
       rect:
@@ -725,8 +725,8 @@ TextureImporter:
         y: 224
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_62
       rect:
@@ -735,8 +735,8 @@ TextureImporter:
         y: 224
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_63
       rect:
@@ -745,8 +745,8 @@ TextureImporter:
         y: 224
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TES_64
       rect:
@@ -755,8 +755,8 @@ TextureImporter:
         y: 224
         width: 86
         height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

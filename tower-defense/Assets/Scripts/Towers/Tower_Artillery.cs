@@ -6,7 +6,7 @@ using System.Collections;
 public class Tower_Artillery : Tower {
 
     void Start() {
-        buildPrice  = 1;
+        buildPrice  = 100;
         interval    = 5.0f;
         range       = 10.0f;
         damage      = 25.0f;

@@ -65,7 +65,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: .25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
@@ -98,8 +98,8 @@ TextureImporter:
         y: 1847
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .642585278, y: .145202935}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_1
       rect:
@@ -108,8 +108,8 @@ TextureImporter:
         y: 1847
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_2
       rect:
@@ -118,8 +118,8 @@ TextureImporter:
         y: 1847
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_3
       rect:
@@ -128,8 +128,8 @@ TextureImporter:
         y: 1847
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_4
       rect:
@@ -138,8 +138,8 @@ TextureImporter:
         y: 1847
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_5
       rect:
@@ -148,8 +148,8 @@ TextureImporter:
         y: 1847
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_6
       rect:
@@ -158,8 +158,8 @@ TextureImporter:
         y: 1847
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_7
       rect:
@@ -168,8 +168,8 @@ TextureImporter:
         y: 1847
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_8
       rect:
@@ -178,8 +178,8 @@ TextureImporter:
         y: 1641
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_9
       rect:
@@ -188,8 +188,8 @@ TextureImporter:
         y: 1641
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_10
       rect:
@@ -198,8 +198,8 @@ TextureImporter:
         y: 1641
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_11
       rect:
@@ -208,8 +208,8 @@ TextureImporter:
         y: 1641
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_12
       rect:
@@ -218,8 +218,8 @@ TextureImporter:
         y: 1641
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_13
       rect:
@@ -228,8 +228,8 @@ TextureImporter:
         y: 1641
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_14
       rect:
@@ -238,8 +238,8 @@ TextureImporter:
         y: 1641
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_15
       rect:
@@ -248,8 +248,8 @@ TextureImporter:
         y: 1641
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_16
       rect:
@@ -258,8 +258,8 @@ TextureImporter:
         y: 1435
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_17
       rect:
@@ -268,8 +268,8 @@ TextureImporter:
         y: 1435
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_18
       rect:
@@ -278,8 +278,8 @@ TextureImporter:
         y: 1435
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_19
       rect:
@@ -288,8 +288,8 @@ TextureImporter:
         y: 1435
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_20
       rect:
@@ -298,8 +298,8 @@ TextureImporter:
         y: 1435
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_21
       rect:
@@ -308,8 +308,8 @@ TextureImporter:
         y: 1435
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_22
       rect:
@@ -318,8 +318,8 @@ TextureImporter:
         y: 1435
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_23
       rect:
@@ -328,8 +328,8 @@ TextureImporter:
         y: 1435
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_24
       rect:
@@ -338,8 +338,8 @@ TextureImporter:
         y: 1229
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_25
       rect:
@@ -348,8 +348,8 @@ TextureImporter:
         y: 1229
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_26
       rect:
@@ -358,8 +358,8 @@ TextureImporter:
         y: 1229
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_27
       rect:
@@ -368,8 +368,8 @@ TextureImporter:
         y: 1229
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_28
       rect:
@@ -378,8 +378,8 @@ TextureImporter:
         y: 1229
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_29
       rect:
@@ -388,8 +388,8 @@ TextureImporter:
         y: 1229
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_30
       rect:
@@ -398,8 +398,8 @@ TextureImporter:
         y: 1229
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_31
       rect:
@@ -408,8 +408,8 @@ TextureImporter:
         y: 1229
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_32
       rect:
@@ -418,8 +418,8 @@ TextureImporter:
         y: 1023
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_33
       rect:
@@ -428,8 +428,8 @@ TextureImporter:
         y: 1023
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_34
       rect:
@@ -438,8 +438,8 @@ TextureImporter:
         y: 1023
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_35
       rect:
@@ -448,8 +448,8 @@ TextureImporter:
         y: 1023
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_36
       rect:
@@ -458,8 +458,8 @@ TextureImporter:
         y: 1023
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_37
       rect:
@@ -468,8 +468,8 @@ TextureImporter:
         y: 1023
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_38
       rect:
@@ -478,8 +478,8 @@ TextureImporter:
         y: 1023
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_39
       rect:
@@ -488,8 +488,8 @@ TextureImporter:
         y: 1023
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_40
       rect:
@@ -498,8 +498,8 @@ TextureImporter:
         y: 817
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_41
       rect:
@@ -508,8 +508,8 @@ TextureImporter:
         y: 817
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_42
       rect:
@@ -518,8 +518,8 @@ TextureImporter:
         y: 817
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_43
       rect:
@@ -528,8 +528,8 @@ TextureImporter:
         y: 817
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_44
       rect:
@@ -538,8 +538,8 @@ TextureImporter:
         y: 817
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_45
       rect:
@@ -548,8 +548,8 @@ TextureImporter:
         y: 817
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_46
       rect:
@@ -558,8 +558,8 @@ TextureImporter:
         y: 817
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: artilleryFire_47
       rect:
@@ -568,8 +568,8 @@ TextureImporter:
         y: 817
         width: 117
         height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .638727963, y: .147447571}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -4,25 +4,18 @@ using System.Collections;
     // Boy
 
 public class Tower_Tremor : Tower {
+
     private float _cooldown;
+
     void Start() {
-        buildPrice  = 1;
+        buildPrice  = 100;
         interval    = 5.0f;
         range       = 2.5f;
         damage      = 5.0f;
     }
 
     public override void Fire(Enemy target) {
-        /*
-        // spawn bullet
-        GameObject g = (GameObject)Instantiate(bulletPrefab.gameObject, transform.position, Quaternion.identity);
-        // get access to bullet component
-        Bullet b = g.GetComponent<Bullet>();
-        // set destination
-        b.setDestination(target.transform);
-        b.setDamage(damage);
-        Vector3 pos = transform.position;
-        */
+        
         //check all enemies
         Enemy[] enemies = (Enemy[])FindObjectsOfType(typeof(Enemy_Default));
         // If array isn't empty
