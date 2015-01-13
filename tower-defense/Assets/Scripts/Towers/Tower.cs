@@ -6,15 +6,15 @@ using System.Collections;
 
 public class Tower : MonoBehaviour {
 
-    private bool _canFire = false;
-    private bool _beingSold = false;
+    private bool _canFire       = false;
+    private bool _beingSold     = false;
     private Animator _anim;
-    protected float interval = 2.0f;
-    protected float range = 10.0f;
-    protected float timeLeft = 0.0f;
-    protected float damage = 0.0f;
-    public Bullet bulletPrefab = null;
-    public int buildPrice = 1;
+    protected float interval    = 2.0f;
+    protected float range       = 10.0f;
+    protected float timeLeft    = 0.0f;
+    protected float damage      = 0.0f;
+    public Bullet bulletPrefab  = null;
+    public int buildPrice       = 1;
 
     Enemy findClosestTarget() {
         Enemy closest = null;
