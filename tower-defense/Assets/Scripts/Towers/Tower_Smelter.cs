@@ -17,9 +17,10 @@ public class Tower_Smelter : Tower {
         GameObject g = (GameObject)Instantiate(bulletPrefab.gameObject, transform.position, Quaternion.identity);
         // get access to bullet component
         Bullet b = g.GetComponent<Bullet>();
-        // set destination
-        b.setDestination(target.transform);
+        // set damage
         b.setDamage(damage);
+        // set destination
+        if (target) b.setDestination(target.transform);
         // reset time
         timeLeft = interval;
     }

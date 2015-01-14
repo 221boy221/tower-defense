@@ -14,7 +14,7 @@ public class Tower_Artillery : Tower {
 
     public override void Fire(Enemy target) {
         // spawn bullet
-        GameObject g = (GameObject)Instantiate(bulletPrefab.gameObject, transform.position, Quaternion.identity);
+        GameObject g = (GameObject)Instantiate(bulletPrefab.gameObject, new Vector3(transform.position.x, transform.position.y + 10, transform.position.z) /*transform.position*/, Quaternion.identity);
         // get access to bullet component
         Bullet b = g.GetComponent<Bullet>();
         // set destination

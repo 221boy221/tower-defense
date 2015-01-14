@@ -111,7 +111,7 @@ State:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: animFire
-  m_Speed: 2
+  m_Speed: 1.5
   m_CycleOffset: 0
   m_Motions:
   - {fileID: 7400000, guid: 85b5f8244543f0a4eaa2d75e38ced64f, type: 2}
