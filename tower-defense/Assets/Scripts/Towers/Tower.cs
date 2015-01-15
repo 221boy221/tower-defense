@@ -2,19 +2,20 @@
 using System.Collections;
 
     // Boy
-    // WOOO, I finally got the hang of inheritance in C# (kinda) :D
 
 public class Tower : MonoBehaviour {
 
     public Bullet bulletPrefab  = null;
     public int buildPrice       = 100;
+    public int upgradePrice     = 200;
     protected float interval    = 2.0f;
     protected float range       = 10.0f;
     protected float timeLeft    = 0.0f;
     protected float damage      = 0.0f;
-    private bool _canFire       = false;
-    private bool _beingSold     = false;
+    public bool _canFire       = false;
+    public bool _beingSold     = false;
     private Animator _anim;
+    //private AnimatorStateInfo _animInfo;
 
     Enemy findClosestTarget() {
         Enemy closest = null;
@@ -40,20 +41,22 @@ public class Tower : MonoBehaviour {
     }
 
     void Awake() {
-        StartCoroutine(Delay());
         _anim = GetComponentInChildren<Animator>();
+        //_animInfo = _anim.GetCurrentAnimatorStateInfo(0);
+        upgradePrice = buildPrice * 2;
+        Invoke("Delay", 6.0f);
     }
 
-    IEnumerator Delay() {
-        yield return new WaitForSeconds(6);
+    void Delay() {
         _canFire = true;
-
     }
 
     void Update() {
         if (_canFire && !_beingSold) {
             timeLeft -= Time.deltaTime;
+            Debug.Log("1");
             if (timeLeft <= 0.0f) {
+                Debug.Log("2");
                 _canFire = false;
                 StartCoroutine(FindTarget());
             }
@@ -86,17 +89,94 @@ public class Tower : MonoBehaviour {
 
     }
 
-    public virtual void OnMouseDown() {
-        //towerUpgradeUI.SetActive(!towerUpgradeUI.activeSelf);
-    }
-
     public void SellTower() {
         // Disable the ability to fire
         _beingSold = true;
         // Play the sell anim
         _anim.Play("animSell");
         // Get rid of the tower
-        DestroyObject(gameObject, 3.5f);
+        DestroyObject(gameObject, 2.5f);
+
+        
+        
+        /*
+        // All this to check the length of the animation
+        // DOESN'T WORK IN RUNTIME!
+         * 
+        float length = 0;
+        int animSpeed = 2;
+        string track = "animSell";
+
+        UnityEditorInternal.AnimatorController ac = _anim.runtimeAnimatorController as UnityEditorInternal.AnimatorController;
+        UnityEditorInternal.StateMachine sm = ac.GetLayer(0).stateMachine;
+
+        // Loop through all the states
+        for (int i = 0; i < sm.stateCount; i++) {
+            // Get the state we're on and check if it matches the given track tag
+            UnityEditorInternal.State state = sm.GetState(i);
+            if (state.tag == track) {
+                Debug.Log("State matches given tag");
+
+                AnimationClip clip = state.GetMotion() as AnimationClip;
+                if (clip != null) {
+                    length = clip.length / animSpeed;
+                    Debug.Log("Length = " + length);
+                } else {
+                    Debug.Log("Clip is Null");
+                }
+
+            } else {
+                Debug.Log("State doesn't match given tag");
+            }
+        }
+        */
+        /*
+        if (_anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.99f) {// && !_anim.IsInTransition(0)) {
+            Debug.Log("Anim is done");
+        } else {
+            Debug.Log("nope");
+        }
+        Debug.Log(_anim.GetCurrentAnimatorStateInfo(0));
+
+        if (_anim.GetCurrentAnimatorStateInfo(0).IsName("animSell")) {
+            Debug.Log("Anim is animSell");
+        } else {
+            Debug.Log("nope");
+        }
+
+        if (_animInfo.IsTag("animSell")) {
+            Debug.Log("Anim is animSell");
+        } else {
+            Debug.Log("nope");
+        }
+        */
+        
+        
+        /*
+        float length = 0;
+        string track = "animSell";
+
+        if (_anim != null) {
+            UnityEditorInternal.AnimatorController ac = _anim.runtimeAnimatorController as UnityEditorInternal.AnimatorController;
+            UnityEditorInternal.StateMachine sm = ac.GetLayer(0).stateMachine;
+
+            for (int i = 0; i < sm.stateCount; i++) {
+                UnityEditorInternal.State state = sm.GetState(i);
+                if (state.uniqueName == track) {
+                    AnimationClip clip = state.GetMotion() as AnimationClip;
+                    if (clip != null) {
+                        length = clip.length;
+                        Debug.Log("Clip ain't null, length = " + clip.length);
+                    } else {
+                        Debug.Log(clip);
+                    }
+                }
+            }
+            Debug.Log("Animation:" + track + ":" + length);
+        }
+        */
+        
+
     }
 
 }

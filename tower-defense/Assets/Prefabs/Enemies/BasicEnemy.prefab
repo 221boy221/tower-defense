@@ -9,8 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
-  - 114: {fileID: 11400002}
   - 114: {fileID: 11400004}
+  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: BasicEnemy
   m_TagString: Enemy
@@ -73,7 +73,7 @@ MonoBehaviour:
   waypoints: []
 --- !u!114 &11400002
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
@@ -96,7 +96,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 0
-  slowInSeconds: 2
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

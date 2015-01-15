@@ -14,6 +14,7 @@ public class Enemy : MonoBehaviour {
     protected float interval = 2.0f;
     protected float slowInSeconds = 2f;
     protected float range = 10.0f;
+    protected int reward = 10;
     protected int dmg = 1;
     private Vector3 _velocity;
     private int _curWayPoint;
@@ -85,7 +86,11 @@ public class Enemy : MonoBehaviour {
         health -= dmg;
 
         if (health <= 0) {
+            // Give the player gold as a reward
+            _player.earnGold(reward);
+            Debug.Log("Dead, reward is: " + reward);
             Destroy(gameObject);
+            
         }
     }
 

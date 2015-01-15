@@ -8,8 +8,8 @@ public class Tower_Tesla : Tower {
     void Start() {
         buildPrice  = 100;
         interval    = 2.0f;
-        range       = 5.0f;
-        damage      = 10.0f;
+        range       = 3.0f;
+        damage      = 25.0f;
     }
 
     public override void Fire(Enemy target) {

@@ -12,7 +12,7 @@ GameObject:
   - 212: {fileID: 21200000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: Tower_Artillery
+  m_Name: Tower_Tremor 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ Animator:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 957028a65e685d8418dbbb1aadde40a6, type: 2}
+  m_Controller: {fileID: 9100000, guid: d028f95990efae140a508ea39d10dba4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -53,10 +53,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 527876c3c225de141a5ec69a09818084, type: 3}
+  m_Script: {fileID: 11500000, guid: ff1c5eae0f3bf9d4abf1d4c50eb29214, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 11400000, guid: 78e7f0f85fdb88b48b7d120902841343, type: 2}
+  bulletPrefab: {fileID: 11400000, guid: a5d6f0b79df8c4d4e8a10d989ea56b86, type: 2}
   buildPrice: 100
   upgradePrice: 200
 --- !u!212 &21200000
@@ -79,8 +79,8 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300094, guid: e92312c784fb88b478045f5254a38079, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300194, guid: 9254674e1fe093549acbbea8ff12abf9, type: 3}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

@@ -9,7 +9,7 @@ public class Tower_Artillery : Tower {
         buildPrice  = 100;
         interval    = 5.0f;
         range       = 10.0f;
-        damage      = 25.0f;
+        damage      = 50.0f;
     }
 
     public override void Fire(Enemy target) {

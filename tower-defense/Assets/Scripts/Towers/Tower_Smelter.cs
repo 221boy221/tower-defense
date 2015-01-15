@@ -8,8 +8,8 @@ public class Tower_Smelter : Tower {
     void Start() {
         buildPrice  = 100;
         interval    = 0.5f;
-        range       = 5.0f;
-        damage      = 5.0f;
+        range       = 3.0f;
+        damage      = 15.0f;
     }
 
     public override void Fire(Enemy target) {
