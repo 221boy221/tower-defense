@@ -11,7 +11,7 @@ public class Tower_Tremor : Tower {
         buildPrice  = 100;
         interval    = 5.0f;
         range       = 2.5f;
-        damage      = 5.0f;
+        damage      = 10.0f;
     }
 
     public override void Fire(Enemy target) {

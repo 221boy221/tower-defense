@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
     // Boy
@@ -6,16 +7,47 @@ using System.Collections;
 public class Player : MonoBehaviour {
 
     public GUISkin skin = null;
-    public static int gold = 150; // start gold
-    public static int hp = 20;
+    public Text goldText;
+    public Text hpText;
+    private int _gold = 200;
+    private int _hp = 20;
 
-    void OnGUI() {
-        GUI.skin = skin;
+    private void Start() {
+        UpdateUI();
+    }
 
-        // temp UI
-        GUI.Label(new Rect(5, 0, 400, 200), "Gold: " + gold);
-        GUI.Label(new Rect(5, 20, 400, 200), "HP: " + hp);
-        
+    public void TakeDamage(int dmg) {
+        Debug.Log("Dmg: " + dmg);
+        _hp -= dmg;
+        if (_hp <= 0) {
+            GameOver();
+        }
+        UpdateUI();
+    }
+
+    public int Gold {
+        get { return _gold; }
+        //set { _gold = value; }
+    }
+
+    public void depleteGold(int amount) {
+        _gold -= amount;
+        UpdateUI();
+    }
+
+    public void earnGold(int amount) {
+        _gold += amount;
+        Debug.Log(amount);
+        UpdateUI();
+    }
+
+    private void UpdateUI() {
+        goldText.text = "" + _gold;
+        hpText.text = "" + _hp;
+    }
+
+    private void GameOver() {
+        Application.LoadLevel("GameOver");
     }
 
 }

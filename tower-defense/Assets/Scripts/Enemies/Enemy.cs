@@ -14,11 +14,15 @@ public class Enemy : MonoBehaviour {
     protected float interval = 2.0f;
     protected float slowInSeconds = 2f;
     protected float range = 10.0f;
+    protected int reward = 10;
+    protected int dmg = 1;
     private Vector3 _velocity;
     private int _curWayPoint;
 
     private Vector3 prevLoc = Vector3.zero;
     private Animator anim;
+
+    private Player _player;
     
     public void Slow()
     {
@@ -28,6 +32,10 @@ public class Enemy : MonoBehaviour {
     private void ResetSpeed()
     {
         speed = 1;
+    }
+
+    void Awake() {
+        _player = GameObject.FindGameObjectWithTag("GameController").GetComponent<Player>();
     }
 
     // Use this for initialization
@@ -52,6 +60,8 @@ public class Enemy : MonoBehaviour {
                     _curWayPoint++;
                     if (_curWayPoint >= waypoints.Length) {
                         Destroy(this.gameObject);
+                        // Deal damage to the player's hp
+                        _player.TakeDamage(dmg);
                         Debug.Log("Enemy got to the end");
                     }
                 } else {
@@ -102,7 +112,11 @@ public class Enemy : MonoBehaviour {
         health -= dmg;
 
         if (health <= 0) {
+            // Give the player gold as a reward
+            _player.earnGold(reward);
+            Debug.Log("Dead, reward is: " + reward);
             Destroy(gameObject);
+            
         }
     }
 

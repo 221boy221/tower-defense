@@ -30,19 +30,19 @@ public class Bullet : MonoBehaviour {
         offset = offset * _speed;
         _velocity = _velocity + offset;
 
+        // Rotation
+        transform.rotation = Quaternion.EulerAngles(0, 0, Mathf.Atan2(_velocity.y, _velocity.x));
+
         // Fly towards the _destination
         transform.position = transform.position + (_velocity * Time.deltaTime);
 
         // When reached
         if (Vector3.Distance(transform.position, _destination.position) < _collisionDistance) {
-            EnemyHealth enemy = _destination.GetComponent<EnemyHealth>();
+            Enemy enemy = _destination.GetComponent<Enemy>();
             enemy.TakeDamage(_damage);
 
             Destroy(gameObject);
         }
-
-        // Rotation
-        transform.rotation = Quaternion.EulerAngles(0, 0, Mathf.Atan2(_velocity.y, _velocity.x));
     }
 
     public void setDamage(float dmg) {

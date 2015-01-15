@@ -13,7 +13,13 @@ public class Enemy_Healer : Enemy {
         health = 100.0f;
         damageReduction = 0.0f;
         interval = 0.5f;
+        reward = 25;
     }
+
+
+
+    // Swan
+
 
     //------------------------Due to lack of time the healing ability has been canceled------------------------//
     /*

@@ -6,10 +6,11 @@ using System.Collections;
 public class Enemy_Fast : Enemy {
     
     void Start() {
-        speed = 2.0f;
+        speed = 1.5f;
         accuracy = 0.1f;
         health = 50.0f;
         damageReduction = 0.0f;
+        reward = 15;
     }
 
 }
