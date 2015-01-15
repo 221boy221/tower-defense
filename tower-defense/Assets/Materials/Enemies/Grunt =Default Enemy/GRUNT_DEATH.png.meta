@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: d42863402cccce441942d0fbf02d2a6a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GRUNT_DEATH_0
+    21300002: GRUNT_DEATH_1
+    21300004: GRUNT_DEATH_2
+    21300006: GRUNT_DEATH_3
+    21300008: GRUNT_DEATH_4
+    21300010: GRUNT_DEATH_5
+    21300012: GRUNT_DEATH_6
+    21300014: GRUNT_DEATH_7
+    21300016: GRUNT_DEATH_8
+    21300018: GRUNT_DEATH_9
+    21300020: GRUNT_DEATH_10
+    21300022: GRUNT_DEATH_11
+    21300024: GRUNT_DEATH_12
+    21300026: GRUNT_DEATH_13
+    21300028: GRUNT_DEATH_14
+    21300030: GRUNT_DEATH_15
+    21300032: GRUNT_DEATH_16
+    21300034: GRUNT_DEATH_17
+    21300036: GRUNT_DEATH_18
+    21300038: GRUNT_DEATH_19
+    21300040: GRUNT_DEATH_20
+    21300042: GRUNT_DEATH_21
+    21300044: GRUNT_DEATH_22
+    21300046: GRUNT_DEATH_23
+    21300048: GRUNT_DEATH_24
+    21300050: GRUNT_DEATH_25
+    21300052: GRUNT_DEATH_26
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GRUNT_DEATH_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 472
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 472
+        width: 25
+        height: 38
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 472
+        width: 25
+        height: 37
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 472
+        width: 26
+        height: 38
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 422
+        width: 27
+        height: 39
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 422
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_6
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 422
+        width: 32
+        height: 37
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 422
+        width: 37
+        height: 38
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 372
+        width: 37
+        height: 39
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 372
+        width: 34
+        height: 38
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 372
+        width: 35
+        height: 38
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_11
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 372
+        width: 34
+        height: 37
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 322
+        width: 34
+        height: 37
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 322
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 322
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_15
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 322
+        width: 34
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 272
+        width: 34
+        height: 29
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_17
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 272
+        width: 36
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_18
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 272
+        width: 40
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_19
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 268
+        width: 46
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 218
+        width: 46
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_21
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 219
+        width: 47
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_22
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 218
+        width: 47
+        height: 25
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_23
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 218
+        width: 48
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 168
+        width: 48
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_25
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 168
+        width: 48
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GRUNT_DEATH_26
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 168
+        width: 48
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
