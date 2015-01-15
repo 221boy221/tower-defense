@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 43d2e86bb5d004a4ca24aeb88318775d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SPIDER_LINKSRECHTS_0
+    21300002: SPIDER_LINKSRECHTS_1
+    21300004: SPIDER_LINKSRECHTS_2
+    21300006: SPIDER_LINKSRECHTS_3
+    21300008: SPIDER_LINKSRECHTS_4
+    21300010: SPIDER_LINKSRECHTS_5
+    21300012: SPIDER_LINKSRECHTS_6
+    21300014: SPIDER_LINKSRECHTS_7
+    21300016: SPIDER_LINKSRECHTS_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SPIDER_LINKSRECHTS_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 226
+        width: 36
+        height: 29
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_LINKSRECHTS_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 226
+        width: 36
+        height: 28
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_LINKSRECHTS_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 40
+        height: 28
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_LINKSRECHTS_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 190
+        width: 36
+        height: 28
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_LINKSRECHTS_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 154
+        width: 33
+        height: 29
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_LINKSRECHTS_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 154
+        width: 35
+        height: 28
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_LINKSRECHTS_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 118
+        width: 37
+        height: 29
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_LINKSRECHTS_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 118
+        width: 35
+        height: 29
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_LINKSRECHTS_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 82
+        width: 36
+        height: 29
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
