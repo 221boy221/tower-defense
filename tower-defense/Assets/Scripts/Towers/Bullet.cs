@@ -12,6 +12,7 @@ public class Bullet : MonoBehaviour {
     private float _speed = 0.5f;
     private float _collisionDistance = 1.0f;
     private float _arch = 2.0f;
+    private bool _ignore = false;
 
     void Start() {
         _velocity = new Vector3(0, _arch, 0);
@@ -37,11 +38,12 @@ public class Bullet : MonoBehaviour {
         transform.position = transform.position + (_velocity * Time.deltaTime);
 
         // When reached
-        if (Vector3.Distance(transform.position, _destination.position) < _collisionDistance) {
+        if (Vector3.Distance(transform.position, _destination.position) < _collisionDistance && !_ignore) {
             Enemy enemy = _destination.GetComponent<Enemy>();
             enemy.TakeDamage(_damage);
+            _ignore = true;
             // Slight delay
-            Destroy(gameObject, 0.5f);
+            Destroy(gameObject, 0.1f);
         }
     }
 
