@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: 93654142945f02f469d916b1ed736082
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SPIDER_DEATH_0
+    21300002: SPIDER_DEATH_1
+    21300004: SPIDER_DEATH_2
+    21300006: SPIDER_DEATH_3
+    21300008: SPIDER_DEATH_4
+    21300010: SPIDER_DEATH_5
+    21300012: SPIDER_DEATH_6
+    21300014: SPIDER_DEATH_7
+    21300016: SPIDER_DEATH_8
+    21300018: SPIDER_DEATH_9
+    21300020: SPIDER_DEATH_10
+    21300022: SPIDER_DEATH_11
+    21300024: SPIDER_DEATH_12
+    21300026: SPIDER_DEATH_13
+    21300028: SPIDER_DEATH_14
+    21300030: SPIDER_DEATH_15
+    21300032: SPIDER_DEATH_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SPIDER_DEATH_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 216
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 216
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_4
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 176
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_5
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 176
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_7
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 136
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_8
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 136
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 96
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_11
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 96
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 56
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 56
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SPIDER_DEATH_16
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 16
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

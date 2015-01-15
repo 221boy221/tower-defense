@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: d8d86c1ad03d4934c986a62734236626
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MOB_DEATH_0
+    21300002: MOB_DEATH_1
+    21300004: MOB_DEATH_2
+    21300006: MOB_DEATH_3
+    21300008: MOB_DEATH_4
+    21300010: MOB_DEATH_5
+    21300012: MOB_DEATH_6
+    21300014: MOB_DEATH_7
+    21300016: MOB_DEATH_8
+    21300018: MOB_DEATH_9
+    21300020: MOB_DEATH_10
+    21300022: MOB_DEATH_11
+    21300024: MOB_DEATH_12
+    21300026: MOB_DEATH_13
+    21300028: MOB_DEATH_14
+    21300030: MOB_DEATH_15
+    21300032: MOB_DEATH_16
+    21300034: MOB_DEATH_17
+    21300036: MOB_DEATH_18
+    21300038: MOB_DEATH_19
+    21300040: MOB_DEATH_20
+    21300042: MOB_DEATH_21
+    21300044: MOB_DEATH_22
+    21300046: MOB_DEATH_23
+    21300048: MOB_DEATH_24
+    21300050: MOB_DEATH_25
+    21300052: MOB_DEATH_26
+    21300054: MOB_DEATH_27
+    21300056: MOB_DEATH_28
+    21300058: MOB_DEATH_29
+    21300060: MOB_DEATH_30
+    21300062: MOB_DEATH_31
+    21300064: MOB_DEATH_32
+    21300066: MOB_DEATH_33
+    21300068: MOB_DEATH_34
+    21300070: MOB_DEATH_35
+    21300072: MOB_DEATH_36
+    21300074: MOB_DEATH_37
+    21300076: MOB_DEATH_38
+    21300078: MOB_DEATH_39
+    21300080: MOB_DEATH_40
+    21300082: MOB_DEATH_41
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MOB_DEATH_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 444
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 444
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_3
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 444
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_4
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 444
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 444
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 376
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 376
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 376
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 376
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 376
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 308
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 308
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 308
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 308
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_17
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 308
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 240
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_20
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 240
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_21
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 240
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_22
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 240
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_23
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 240
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_25
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 172
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 172
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOB_DEATH_27
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 172
+        width: 75
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
