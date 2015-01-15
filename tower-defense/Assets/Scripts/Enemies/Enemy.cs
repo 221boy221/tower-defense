@@ -18,6 +18,10 @@ public class Enemy : MonoBehaviour {
     protected int dmg = 1;
     private Vector3 _velocity;
     private int _curWayPoint;
+
+    private Vector3 prevLoc = Vector3.zero;
+    private Animator anim;
+
     private Player _player;
     
     public void Slow()
@@ -38,6 +42,8 @@ public class Enemy : MonoBehaviour {
     void Start() {
         _curWayPoint = 0;
         _velocity = new Vector3();
+
+        anim = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -65,6 +71,26 @@ public class Enemy : MonoBehaviour {
 
             //apply velocity 
             transform.position = transform.position + _velocity * Time.deltaTime;
+
+            Vector3 curVel = (transform.position - prevLoc) / Time.deltaTime;
+                 if(curVel.y > 0) {
+                     Debug.Log("walkUp");
+                     //anim.Play("GoingUp");
+                 } else {
+                     Debug.Log("walkDown");
+                     //anim.Play("GoingDown");
+                 }
+
+                 if (curVel.x > 0)
+                 {
+                     Debug.Log("walkRight");
+                     //anim.Play("GoingRight");
+                 } else {
+                     Debug.Log("walkLeft");
+                     //anim.Play("GoingLeft");
+                 }
+                 prevLoc = transform.position;
+
         }
         
     }
