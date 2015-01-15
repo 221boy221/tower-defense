@@ -40,8 +40,8 @@ public class Bullet : MonoBehaviour {
         if (Vector3.Distance(transform.position, _destination.position) < _collisionDistance) {
             Enemy enemy = _destination.GetComponent<Enemy>();
             enemy.TakeDamage(_damage);
-
-            Destroy(gameObject);
+            // Slight delay
+            Destroy(gameObject, 0.5f);
         }
     }
 

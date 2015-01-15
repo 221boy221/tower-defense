@@ -10,9 +10,9 @@ public class Tower : MonoBehaviour {
     public int upgradePrice     = 200;
     protected float interval    = 2.0f;
     protected float range       = 10.0f;
-    protected float timeLeft    = 0.0f;
+    protected float timeLeft    = 6.0f;
     protected float damage      = 0.0f;
-    public bool _canFire       = false;
+    //public bool _canFire       = false;
     public bool _beingSold     = false;
     private Animator _anim;
     //private AnimatorStateInfo _animInfo;
@@ -48,16 +48,16 @@ public class Tower : MonoBehaviour {
     }
 
     void Delay() {
-        _canFire = true;
+        //_canFire = true;
+        //Debug.Log("Delay, canfire: " + _canFire);
     }
 
     void Update() {
-        if (_canFire && !_beingSold) {
+        if (/*_canFire &&*/ !_beingSold) {
             timeLeft -= Time.deltaTime;
-            Debug.Log("1");
             if (timeLeft <= 0.0f) {
-                Debug.Log("2");
-                _canFire = false;
+                //_canFire = false;
+                //Debug.Log("timeleft 0, canfire: " + _canFire);
                 StartCoroutine(FindTarget());
             }
         }
@@ -71,11 +71,14 @@ public class Tower : MonoBehaviour {
             if (Vector3.Distance(transform.position, target.transform.position) <= range) {
                 // Charging...
                 if (_anim) _anim.Play("animFire");
+                timeLeft = interval + 1;
                 yield return new WaitForSeconds(1);
                 // Ready to fire
                 Fire(target);
                 // Is done shooting.
-                _canFire = true;
+                
+                //_canFire = true;
+                //Debug.Log("Is done shooting, canfire: " + _canFire);
 
             } else {
                 if (_anim) _anim.Play("animIdle");
