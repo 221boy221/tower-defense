@@ -121,8 +121,8 @@ MonoBehaviour:
   buildPrice: 100
   upgradePrice: 200
   destroyTime: 3
-  BuildAudio: {fileID: 0}
-  FireAudio: {fileID: 0}
+  BuildAudio: {fileID: 8300000, guid: d193e0aad3187714ab2f4b4e3db96a20, type: 3}
+  FireAudio: {fileID: 8300000, guid: da011283801a4fc4183e042c22d93c7b, type: 3}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

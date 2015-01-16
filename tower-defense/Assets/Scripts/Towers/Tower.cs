@@ -74,9 +74,10 @@ public class Tower : MonoBehaviour {
                 // Charging...
                 if (_anim) _anim.Play("animFire");
                 timeLeft = interval + fireDelay;
+                if (fireDelay <= 1.0f) MainSource.PlayOneShot(FireAudio, 1f);
                 yield return new WaitForSeconds(fireDelay);
+                if (fireDelay > 1.0f) MainSource.PlayOneShot(FireAudio, 1f);
                 // Ready to fire
-                MainSource.PlayOneShot(FireAudio, 1f);
                 Fire(target);
             } else {
                 if (_anim) _anim.Play("animIdle");
