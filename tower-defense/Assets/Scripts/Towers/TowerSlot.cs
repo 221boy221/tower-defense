@@ -55,6 +55,9 @@ public class TowerSlot : MonoBehaviour {
             // Spawn lvl 2 tower
             _tower = (Tower)Instantiate(upgradedTowers[_towerType], transform.position, Quaternion.identity);
             _tower.lvl = 2;
+
+            // Hide menu if active
+            towerMenu.SetActive(false);
         }
     }
 

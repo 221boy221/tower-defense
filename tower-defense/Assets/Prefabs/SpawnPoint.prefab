@@ -45,10 +45,8 @@ MonoBehaviour:
   - {fileID: 100000, guid: 0715d1cafeec0714cb7b32816f1a2d53, type: 2}
   - {fileID: 100000, guid: 8fbda94c03dd41445a641f2979021719, type: 2}
   spawnValues: {x: -.349999994, y: 5.5, z: 0}
-  EnemyCount: 10
-  startWait: 2
-  spawnWait: 1
-  waveWait: 30
+  waveCountText: {fileID: 0}
+  waveTimeText: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
