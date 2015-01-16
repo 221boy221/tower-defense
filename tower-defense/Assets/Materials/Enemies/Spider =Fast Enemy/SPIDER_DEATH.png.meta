@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 93654142945f02f469d916b1ed736082
+guid: 2973414f5c51c324c9b3f717412a9624
 TextureImporter:
   fileIDToRecycleName:
     21300000: SPIDER_DEATH_0
@@ -34,7 +34,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: .25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
@@ -67,8 +67,8 @@ TextureImporter:
         y: 216
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_1
       rect:
@@ -77,8 +77,8 @@ TextureImporter:
         y: 216
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_2
       rect:
@@ -87,8 +87,8 @@ TextureImporter:
         y: 216
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_3
       rect:
@@ -97,8 +97,8 @@ TextureImporter:
         y: 176
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_4
       rect:
@@ -107,8 +107,8 @@ TextureImporter:
         y: 176
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_5
       rect:
@@ -117,8 +117,8 @@ TextureImporter:
         y: 176
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_6
       rect:
@@ -127,8 +127,8 @@ TextureImporter:
         y: 136
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_7
       rect:
@@ -137,8 +137,8 @@ TextureImporter:
         y: 136
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_8
       rect:
@@ -147,8 +147,8 @@ TextureImporter:
         y: 136
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_9
       rect:
@@ -157,8 +157,8 @@ TextureImporter:
         y: 96
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_10
       rect:
@@ -167,8 +167,8 @@ TextureImporter:
         y: 96
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_11
       rect:
@@ -177,8 +177,8 @@ TextureImporter:
         y: 96
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_12
       rect:
@@ -187,8 +187,8 @@ TextureImporter:
         y: 56
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_13
       rect:
@@ -197,8 +197,8 @@ TextureImporter:
         y: 56
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_14
       rect:
@@ -207,8 +207,8 @@ TextureImporter:
         y: 56
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_15
       rect:
@@ -217,8 +217,8 @@ TextureImporter:
         y: 16
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SPIDER_DEATH_16
       rect:
@@ -227,8 +227,8 @@ TextureImporter:
         y: 16
         width: 77
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3195692, y: .390316784}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

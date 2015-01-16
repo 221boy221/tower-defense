@@ -11,6 +11,7 @@ public class Enemy_Armored : Enemy {
         health = 100.0f;
         damageReduction = 0.0f;
         reward = 25;
+        destroyTime = 3.0f;
     }
 
 }

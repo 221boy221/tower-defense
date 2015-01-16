@@ -14,6 +14,7 @@ public class Enemy_Healer : Enemy {
         damageReduction = 0.0f;
         interval = 0.5f;
         reward = 25;
+        destroyTime = 2.0f;
     }
 
 

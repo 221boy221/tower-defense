@@ -57,6 +57,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 11400000, guid: a5d6f0b79df8c4d4e8a10d989ea56b86, type: 2}
+  _beingSold: 0
+  lvl: 1
   buildPrice: 100
   upgradePrice: 200
 --- !u!212 &21200000

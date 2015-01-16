@@ -5,13 +5,13 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Grunt
+  m_Name: animsSpider
   serializedVersion: 2
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 3
     m_Name: Base Layer
-    m_StateMachine: {fileID: 110702090}
+    m_StateMachine: {fileID: 110790608}
     m_Mask: {fileID: 0}
     m_BlendingMode: 0
     m_SyncedLayerIndex: -1
@@ -20,22 +20,7 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &110290316
-State:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: animDeath
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Motions:
-  - {fileID: 7400000, guid: 6f417f5a18b37244b9ca6728b929684d, type: 2}
-  m_ParentStateMachine: {fileID: 110702090}
-  m_Position: {x: 204, y: 204, z: 0}
-  m_IKOnFeet: 0
-  m_Mirror: 0
-  m_Tag: 
---- !u!1102 &110290318
+--- !u!1102 &110251664
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
@@ -44,13 +29,13 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: a560cfab93616b843b2ae2c3b35c16ef, type: 2}
-  m_ParentStateMachine: {fileID: 110702090}
-  m_Position: {x: 204, y: 156, z: 0}
+  - {fileID: 7400000, guid: f63cde356dfddc647b1e5b7e4ec8b76b, type: 2}
+  m_ParentStateMachine: {fileID: 110790608}
+  m_Position: {x: 24, y: 120, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
---- !u!1102 &110290320
+--- !u!1102 &110251666
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
@@ -59,43 +44,42 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: fb4f6314fe92ff34ea0014ac3033c66c, type: 2}
-  m_ParentStateMachine: {fileID: 110702090}
-  m_Position: {x: 204, y: 108, z: 0}
+  - {fileID: 7400000, guid: c2963e8d4da633040bf8302008c75857, type: 2}
+  m_ParentStateMachine: {fileID: 110790608}
+  m_Position: {x: 24, y: 72, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
---- !u!1102 &110290322
+--- !u!1102 &110251668
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: animUp
+  m_Name: animDeath
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: ebe7f5773c091214585d2fbb209275dd, type: 2}
-  m_ParentStateMachine: {fileID: 110702090}
-  m_Position: {x: 204, y: 60, z: 0}
+  - {fileID: 7400000, guid: b67816fa29c6609408f93bd6182c633b, type: 2}
+  m_ParentStateMachine: {fileID: 110790608}
+  m_Position: {x: 24, y: 168, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
---- !u!1107 &110702090
+--- !u!1107 &110790608
 StateMachine:
   serializedVersion: 2
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Base Layer
-  m_DefaultState: {fileID: 110290318}
+  m_DefaultState: {fileID: 110251664}
   m_States:
-  - {fileID: 110290316}
-  - {fileID: 110290318}
-  - {fileID: 110290320}
-  - {fileID: 110290322}
+  - {fileID: 110251668}
+  - {fileID: 110251666}
+  - {fileID: 110251664}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions: {}
   m_MotionSetCount: 1
-  m_AnyStatePosition: {x: 228, y: 12, z: 0}
+  m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

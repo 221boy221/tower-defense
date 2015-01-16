@@ -6,10 +6,20 @@ using System.Collections;
 public class Tower_Tesla : Tower {
 
     void Start() {
-        buildPrice  = 100;
-        interval    = 2.0f;
-        range       = 3.0f;
-        damage      = 25.0f;
+        switch (lvl) {
+            case 1:
+                buildPrice  = 100;
+                interval    = 2.0f;
+                range       = 3.0f;
+                damage      = 25.0f;
+                break;
+            case 2:
+                buildPrice  = 200;
+                interval    = 2.0f;
+                range       = 4.0f;
+                damage      = 40.0f;
+                break;
+        }
     }
 
     public override void Fire(Enemy target) {

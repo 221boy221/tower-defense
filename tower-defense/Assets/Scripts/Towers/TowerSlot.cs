@@ -51,9 +51,10 @@ public class TowerSlot : MonoBehaviour {
             _player.depleteGold(_tower.upgradePrice);
 
             _tower.SellTower();
+
             // Spawn lvl 2 tower
             _tower = (Tower)Instantiate(upgradedTowers[_towerType], transform.position, Quaternion.identity);
-
+            _tower.lvl = 2;
         }
     }
 

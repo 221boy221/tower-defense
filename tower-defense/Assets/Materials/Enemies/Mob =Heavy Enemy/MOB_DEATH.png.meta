@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d8d86c1ad03d4934c986a62734236626
+guid: d4410dbd42d27374ea18c547b377d74a
 TextureImporter:
   fileIDToRecycleName:
     21300000: MOB_DEATH_0
@@ -59,7 +59,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: .25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
@@ -92,8 +92,8 @@ TextureImporter:
         y: 444
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_1
       rect:
@@ -102,8 +102,8 @@ TextureImporter:
         y: 444
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_2
       rect:
@@ -112,8 +112,8 @@ TextureImporter:
         y: 444
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_3
       rect:
@@ -122,8 +122,8 @@ TextureImporter:
         y: 444
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_4
       rect:
@@ -132,8 +132,8 @@ TextureImporter:
         y: 444
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_5
       rect:
@@ -142,8 +142,8 @@ TextureImporter:
         y: 444
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_6
       rect:
@@ -152,8 +152,8 @@ TextureImporter:
         y: 376
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_7
       rect:
@@ -162,8 +162,8 @@ TextureImporter:
         y: 376
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_8
       rect:
@@ -172,8 +172,8 @@ TextureImporter:
         y: 376
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_9
       rect:
@@ -182,8 +182,8 @@ TextureImporter:
         y: 376
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_10
       rect:
@@ -192,8 +192,8 @@ TextureImporter:
         y: 376
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_11
       rect:
@@ -202,8 +202,8 @@ TextureImporter:
         y: 376
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_12
       rect:
@@ -212,8 +212,8 @@ TextureImporter:
         y: 308
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_13
       rect:
@@ -222,8 +222,8 @@ TextureImporter:
         y: 308
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_14
       rect:
@@ -232,8 +232,8 @@ TextureImporter:
         y: 308
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_15
       rect:
@@ -242,8 +242,8 @@ TextureImporter:
         y: 308
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_16
       rect:
@@ -252,8 +252,8 @@ TextureImporter:
         y: 308
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_17
       rect:
@@ -262,8 +262,8 @@ TextureImporter:
         y: 308
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_18
       rect:
@@ -272,8 +272,8 @@ TextureImporter:
         y: 240
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_19
       rect:
@@ -282,8 +282,8 @@ TextureImporter:
         y: 240
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_20
       rect:
@@ -292,8 +292,8 @@ TextureImporter:
         y: 240
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_21
       rect:
@@ -302,8 +302,8 @@ TextureImporter:
         y: 240
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_22
       rect:
@@ -312,8 +312,8 @@ TextureImporter:
         y: 240
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_23
       rect:
@@ -322,8 +322,8 @@ TextureImporter:
         y: 240
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_24
       rect:
@@ -332,8 +332,8 @@ TextureImporter:
         y: 172
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_25
       rect:
@@ -342,8 +342,8 @@ TextureImporter:
         y: 172
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_26
       rect:
@@ -352,8 +352,8 @@ TextureImporter:
         y: 172
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MOB_DEATH_27
       rect:
@@ -362,8 +362,8 @@ TextureImporter:
         y: 172
         width: 75
         height: 68
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .605251729, y: .210746765}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

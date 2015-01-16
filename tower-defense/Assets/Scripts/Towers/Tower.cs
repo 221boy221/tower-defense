@@ -6,14 +6,14 @@ using System.Collections;
 public class Tower : MonoBehaviour {
 
     public Bullet bulletPrefab  = null;
+    public bool _beingSold      = false;
+    public int lvl              = 1;
     public int buildPrice       = 100;
     public int upgradePrice     = 200;
+    protected float damage      = 0.0f;
     protected float interval    = 2.0f;
     protected float range       = 10.0f;
     protected float timeLeft    = 6.0f;
-    protected float damage      = 0.0f;
-    //public bool _canFire       = false;
-    public bool _beingSold     = false;
     private Animator _anim;
     //private AnimatorStateInfo _animInfo;
 
@@ -44,20 +44,12 @@ public class Tower : MonoBehaviour {
         _anim = GetComponentInChildren<Animator>();
         //_animInfo = _anim.GetCurrentAnimatorStateInfo(0);
         upgradePrice = buildPrice * 2;
-        Invoke("Delay", 6.0f);
-    }
-
-    void Delay() {
-        //_canFire = true;
-        //Debug.Log("Delay, canfire: " + _canFire);
     }
 
     void Update() {
-        if (/*_canFire &&*/ !_beingSold) {
+        if (!_beingSold) {
             timeLeft -= Time.deltaTime;
             if (timeLeft <= 0.0f) {
-                //_canFire = false;
-                //Debug.Log("timeleft 0, canfire: " + _canFire);
                 StartCoroutine(FindTarget());
             }
         }
@@ -75,11 +67,6 @@ public class Tower : MonoBehaviour {
                 yield return new WaitForSeconds(1);
                 // Ready to fire
                 Fire(target);
-                // Is done shooting.
-                
-                //_canFire = true;
-                //Debug.Log("Is done shooting, canfire: " + _canFire);
-
             } else {
                 if (_anim) _anim.Play("animIdle");
             }

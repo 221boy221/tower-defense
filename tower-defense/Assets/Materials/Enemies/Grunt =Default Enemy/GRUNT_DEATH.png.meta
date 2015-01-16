@@ -44,7 +44,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: .25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
@@ -77,8 +77,8 @@ TextureImporter:
         y: 472
         width: 25
         height: 39
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_1
       rect:
@@ -87,8 +87,8 @@ TextureImporter:
         y: 472
         width: 25
         height: 38
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_2
       rect:
@@ -97,8 +97,8 @@ TextureImporter:
         y: 472
         width: 25
         height: 37
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_3
       rect:
@@ -107,8 +107,8 @@ TextureImporter:
         y: 472
         width: 26
         height: 38
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_4
       rect:
@@ -117,8 +117,8 @@ TextureImporter:
         y: 422
         width: 27
         height: 39
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_5
       rect:
@@ -127,8 +127,8 @@ TextureImporter:
         y: 422
         width: 29
         height: 38
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_6
       rect:
@@ -137,8 +137,8 @@ TextureImporter:
         y: 422
         width: 32
         height: 37
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_7
       rect:
@@ -147,8 +147,8 @@ TextureImporter:
         y: 422
         width: 37
         height: 38
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_8
       rect:
@@ -157,8 +157,8 @@ TextureImporter:
         y: 372
         width: 37
         height: 39
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_9
       rect:
@@ -167,8 +167,8 @@ TextureImporter:
         y: 372
         width: 34
         height: 38
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_10
       rect:
@@ -177,8 +177,8 @@ TextureImporter:
         y: 372
         width: 35
         height: 38
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_11
       rect:
@@ -187,8 +187,8 @@ TextureImporter:
         y: 372
         width: 34
         height: 37
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_12
       rect:
@@ -197,8 +197,8 @@ TextureImporter:
         y: 322
         width: 34
         height: 37
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_13
       rect:
@@ -207,8 +207,8 @@ TextureImporter:
         y: 322
         width: 34
         height: 36
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_14
       rect:
@@ -217,8 +217,8 @@ TextureImporter:
         y: 322
         width: 34
         height: 35
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_15
       rect:
@@ -227,8 +227,8 @@ TextureImporter:
         y: 322
         width: 34
         height: 32
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_16
       rect:
@@ -237,8 +237,8 @@ TextureImporter:
         y: 272
         width: 34
         height: 29
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_17
       rect:
@@ -247,8 +247,8 @@ TextureImporter:
         y: 272
         width: 36
         height: 26
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_18
       rect:
@@ -257,8 +257,8 @@ TextureImporter:
         y: 272
         width: 40
         height: 24
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_19
       rect:
@@ -267,8 +267,8 @@ TextureImporter:
         y: 268
         width: 46
         height: 24
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_20
       rect:
@@ -277,8 +277,8 @@ TextureImporter:
         y: 218
         width: 46
         height: 24
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_21
       rect:
@@ -287,8 +287,8 @@ TextureImporter:
         y: 219
         width: 47
         height: 24
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_22
       rect:
@@ -297,8 +297,8 @@ TextureImporter:
         y: 218
         width: 47
         height: 25
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_23
       rect:
@@ -307,8 +307,8 @@ TextureImporter:
         y: 218
         width: 48
         height: 24
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_24
       rect:
@@ -317,8 +317,8 @@ TextureImporter:
         y: 168
         width: 48
         height: 24
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_25
       rect:
@@ -327,8 +327,8 @@ TextureImporter:
         y: 168
         width: 48
         height: 24
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GRUNT_DEATH_26
       rect:
@@ -337,8 +337,8 @@ TextureImporter:
         y: 168
         width: 48
         height: 24
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .488665164, y: .101723693}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

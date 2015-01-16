@@ -28,7 +28,7 @@ public class SpawnScript : MonoBehaviour {
             {
                 Vector3 spawnPostition = new Vector3 (spawnValues.x, spawnValues.y, spawnValues.z);
                 Quaternion spawnRotation = Quaternion.identity;
-                GameObject g = (GameObject)Instantiate(enemyTypes[Random.Range(0, 5)], spawnPostition, spawnRotation);
+                GameObject g = (GameObject)Instantiate(enemyTypes[Random.Range(0, enemyTypes.Length)], spawnPostition, spawnRotation);
                 yield return new WaitForSeconds(spawnWait);
                 g.GetComponent<Enemy>().waypoints = waypoints.wayPoints;
             }

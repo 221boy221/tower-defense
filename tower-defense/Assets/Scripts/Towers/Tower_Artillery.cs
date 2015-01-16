@@ -6,10 +6,21 @@ using System.Collections;
 public class Tower_Artillery : Tower {
 
     void Start() {
-        buildPrice  = 100;
-        interval    = 5.0f;
-        range       = 10.0f;
-        damage      = 50.0f;
+        switch (lvl) {
+            case 1:
+                buildPrice  = 100;
+                interval    = 5.0f;
+                range       = 10.0f;
+                damage      = 50.0f;
+                break;
+            case 2:
+                buildPrice  = 200;
+                interval    = 5.0f;
+                range       = 15.0f;
+                damage      = 75.0f;
+                break;
+        }
+        
     }
 
     public override void Fire(Enemy target) {

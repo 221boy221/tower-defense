@@ -8,10 +8,20 @@ public class Tower_Tremor : Tower {
     private float _cooldown;
 
     void Start() {
-        buildPrice  = 100;
-        interval    = 5.0f;
-        range       = 2.5f;
-        damage      = 10.0f;
+        switch (lvl) {
+            case 1:
+                buildPrice  = 100;
+                interval    = 5.0f;
+                range       = 10.0f;
+                damage      = 50.0f;
+                break;
+            case 2:
+                buildPrice  = 200;
+                interval    = 3.0f;
+                range       = 3.0f;
+                damage      = 20.0f;
+                break;
+        }
     }
 
     public override void Fire(Enemy target) {
