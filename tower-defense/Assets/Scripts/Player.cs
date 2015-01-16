@@ -9,7 +9,7 @@ public class Player : MonoBehaviour {
     public GUISkin skin = null;
     public Text goldText;
     public Text hpText;
-    private int _gold = 200;
+    private int _gold = 4000;
     private int _hp = 20;
 
     private void Start() {

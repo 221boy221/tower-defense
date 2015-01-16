@@ -21,36 +21,22 @@ public class Enemy : MonoBehaviour {
     private int _curWayPoint;
     private bool _alive = true;
     private Vector3 _velocity;
-    private Vector3 prevLoc = Vector3.zero;
+    //private Vector3 _prevLoc = Vector3.zero;
     private Animator _anim;
     private Player _player;
-    
-    public void Slow() {
-        speed = 0.5f;
-        Invoke("ResetSpeed", slowInSeconds);
-    }
-
-    private void ResetSpeed() {
-        speed = 1;
-    }
 
     void Awake() {
         _anim = GetComponentInChildren<Animator>();
         _player = GameObject.FindGameObjectWithTag("GameController").GetComponent<Player>();
     }
 
-    // Use this for initialization
     void Start() {
         _curWayPoint = 0;
         _velocity = new Vector3();
-
     }
 
-    // Update is called once per frame
     void Update() {
-        if (!_alive) {
-            return;
-        }
+        if (!_alive) return;
 
         if (_curWayPoint < waypoints.Length) {
             Vector3 step = waypoints[_curWayPoint].transform.position - transform.position;
@@ -63,24 +49,21 @@ public class Enemy : MonoBehaviour {
                 if (_curWayPoint != waypoints.Length) {
                     _curWayPoint++;
                     if (_curWayPoint >= waypoints.Length) {
-                        Destroy(this.gameObject);
+                        Destroy(gameObject);
                         // Deal damage to the player's hp
                         _player.TakeDamage(dmg);
                         Debug.Log("Enemy got to the end");
                     }
-                } else {
-                    Debug.Log("Enemy is still alive");
                 }
             }
 
             //apply velocity 
             transform.position = transform.position + _velocity * Time.deltaTime;
-            
 
             // This doesn't work as it is right now, the loop will spam Play the animation.
-
+            #region Animations that are played when facing certain directions
             /*
-            Vector3 curVel = (transform.position - prevLoc) / Time.deltaTime;
+            Vector3 curVel = (transform.position - _prevLoc) / Time.deltaTime;
                  if(curVel.y > 0) {
                      Debug.Log("walkUp");
                      //_anim.Play("animUp");
@@ -98,10 +81,23 @@ public class Enemy : MonoBehaviour {
                      Debug.Log("walkLeft");
                      //_anim.Play("animLeft");
                  }
-                 prevLoc = transform.position;
+                 _prevLoc = transform.position;
 
             */
+            #endregion
+
         }
+    }
+
+    // Tremor tower will trigger this
+    public void SlowEnemy(int slowAmount) {
+        StartCoroutine(Slow(slowAmount));
+    }
+    // Which then triggers this
+    IEnumerator Slow(int slowAmount) {
+        speed = speed / slowAmount;
+        yield return new WaitForSeconds(slowInSeconds);
+        speed = speed * slowAmount;
     }
 
     // Get healed
@@ -111,19 +107,14 @@ public class Enemy : MonoBehaviour {
 
     // Take damage
     public void TakeDamage(float dmg) {
-
         dmg -= damageReduction;
         if (dmg < 0) dmg = 0;
 
         health -= dmg;
-
-        if (health <= 0) {
-            Dead();
-            
-        }
+        if (health <= 0) Dead();
     }
 
-    // Enemies can override so that they can be destroyed with different delays
+    // Destroy and give Reward
     private void Dead() {
         if (dead) return;
         dead = true;

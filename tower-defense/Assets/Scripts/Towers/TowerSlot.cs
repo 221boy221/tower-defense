@@ -46,12 +46,19 @@ public class TowerSlot : MonoBehaviour {
         }
     }
 
+    // New Unity UI will run this
     public void UpgradeTower() {
+        StartCoroutine(Upgrade());
+    }
+
+    // Which then triggers this, since the UI can't trigger IEnumerators
+    IEnumerator Upgrade() {
         if (_player.Gold >= _tower.upgradePrice) {
             _player.depleteGold(_tower.upgradePrice);
 
             _tower.SellTower();
-
+            Debug.Log(_tower.destroyTime);
+            yield return new WaitForSeconds(_tower.destroyTime);
             // Spawn lvl 2 tower
             _tower = (Tower)Instantiate(upgradedTowers[_towerType], transform.position, Quaternion.identity);
             _tower.lvl = 2;
@@ -64,7 +71,7 @@ public class TowerSlot : MonoBehaviour {
     public void SellTower() {
         // Remove tower
         _tower.SellTower();
-        // Return gold
+        // Return 2/3th of gold from the buildPrice
         _player.earnGold(_tower.buildPrice - (_tower.buildPrice / 3));
         // Slot is no longer occupied
         _occupied = false;

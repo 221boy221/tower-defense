@@ -11,35 +11,33 @@ public class Tower_Tremor : Tower {
         switch (lvl) {
             case 1:
                 buildPrice  = 100;
-                interval    = 5.0f;
-                range       = 10.0f;
-                damage      = 50.0f;
+                interval    = 6.0f;
+                range       = 3.0f;
+                damage      = 10.0f;
                 break;
             case 2:
                 buildPrice  = 200;
-                interval    = 3.0f;
-                range       = 3.0f;
+                interval    = 4.5f;
+                range       = 4.0f;
                 damage      = 20.0f;
                 break;
         }
+
+        destroyTime = 3.167f;
+        fireDelay   = 4.0f;
     }
 
     public override void Fire(Enemy target) {
-        
         //check all enemies
-        Enemy[] enemies = (Enemy[])FindObjectsOfType(typeof(Enemy_Default));
+        Enemy[] enemies = (Enemy[])FindObjectsOfType(typeof(Enemy));
         // If array isn't empty
-        if (enemies != null)
-        {
-            if (enemies.Length > 0)
-            {
-                for (int i = 1; i < enemies.Length; ++i)
-                {
+        if (enemies != null) {
+            if (enemies.Length > 0) {
+                for (int i = 1; i < enemies.Length; i++) {
                     //check if enemies are in range then slow current enemy
-                    if (Vector3.Distance(this.transform.position, enemies[i].transform.position) <= range)
-                    {
+                    if (Vector3.Distance(transform.position, enemies[i].transform.position) <= range) {
                         //slowing current enemy
-                        enemies[i].Slow();
+                        enemies[i].SlowEnemy(4);
                     }
                 }
             }

@@ -56,9 +56,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 527876c3c225de141a5ec69a09818084, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 11400000, guid: 78e7f0f85fdb88b48b7d120902841343, type: 2}
+  bulletPrefab: {fileID: 11400000, guid: d9231796330095f44b77d6540ad6e798, type: 2}
+  _beingSold: 0
+  lvl: 1
   buildPrice: 100
   upgradePrice: 200
+  destroyTime: 3
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

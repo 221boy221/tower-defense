@@ -10,10 +10,12 @@ public class Tower : MonoBehaviour {
     public int lvl              = 1;
     public int buildPrice       = 100;
     public int upgradePrice     = 200;
+    public float destroyTime    = 3.0f;
     protected float damage      = 0.0f;
     protected float interval    = 2.0f;
     protected float range       = 10.0f;
     protected float timeLeft    = 6.0f;
+    protected float fireDelay   = 1.0f;
     private Animator _anim;
     //private AnimatorStateInfo _animInfo;
 
@@ -64,8 +66,8 @@ public class Tower : MonoBehaviour {
             if (Vector3.Distance(transform.position, target.transform.position) <= range) {
                 // Charging...
                 if (_anim) _anim.Play("animFire");
-                timeLeft = interval + 1;
-                yield return new WaitForSeconds(1);
+                timeLeft = interval + fireDelay;
+                yield return new WaitForSeconds(fireDelay);
                 // Ready to fire
                 Fire(target);
             } else {
@@ -86,14 +88,12 @@ public class Tower : MonoBehaviour {
         // Play the sell anim
         _anim.Play("animSell");
         // Get rid of the tower
-        DestroyObject(gameObject, 2.5f);
+        DestroyObject(gameObject, destroyTime);
 
-        
-        
+
+        // Garbage code:
+        #region All this to check the length of the animation, DOESN'T WORK IN RUNTIME!
         /*
-        // All this to check the length of the animation
-        // DOESN'T WORK IN RUNTIME!
-         * 
         float length = 0;
         int animSpeed = 2;
         string track = "animSell";
@@ -164,9 +164,8 @@ public class Tower : MonoBehaviour {
                 }
             }
             Debug.Log("Animation:" + track + ":" + length);
-        }
-        */
-        
+        } */
+	#endregion
 
     }
 

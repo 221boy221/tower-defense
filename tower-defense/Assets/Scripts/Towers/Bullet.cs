@@ -5,14 +5,14 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour {
 
-    public float _damage = 0.0f;
-
+    private float _destroyTime  = 0.0f;
+    private float _damage       = 0.0f;
+    private float _speed        = 0.5f;
+    private float _collDistance = 1.0f;
+    private float _arch         = 2.0f;
+    private bool _ignore        = false;
     private Vector3 _velocity;
     private Transform _destination;
-    private float _speed = 0.5f;
-    private float _collisionDistance = 1.0f;
-    private float _arch = 2.0f;
-    private bool _ignore = false;
 
     void Start() {
         _velocity = new Vector3(0, _arch, 0);
@@ -38,17 +38,21 @@ public class Bullet : MonoBehaviour {
         transform.position = transform.position + (_velocity * Time.deltaTime);
 
         // When reached
-        if (Vector3.Distance(transform.position, _destination.position) < _collisionDistance && !_ignore) {
+        if (Vector3.Distance(transform.position, _destination.position) < _collDistance && !_ignore) {
             Enemy enemy = _destination.GetComponent<Enemy>();
             enemy.TakeDamage(_damage);
             _ignore = true;
             // Slight delay
-            Destroy(gameObject, 0.1f);
+            Destroy(gameObject, _destroyTime);
         }
     }
 
     public void setDamage(float dmg) {
         _damage = dmg;
+    }
+
+    public void setDestroyTime(float time) {
+        _destroyTime = time;
     }
 
     public void setDestination(Transform target) {

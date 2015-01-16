@@ -9,17 +9,19 @@ public class Tower_Artillery : Tower {
         switch (lvl) {
             case 1:
                 buildPrice  = 100;
-                interval    = 5.0f;
-                range       = 10.0f;
+                interval    = 6.0f;
+                range       = 6.0f;
                 damage      = 50.0f;
                 break;
             case 2:
                 buildPrice  = 200;
                 interval    = 5.0f;
-                range       = 15.0f;
+                range       = 12.0f;
                 damage      = 75.0f;
                 break;
         }
+
+        destroyTime = 3.25f;
         
     }
 

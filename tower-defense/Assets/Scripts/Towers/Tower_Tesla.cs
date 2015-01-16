@@ -20,16 +20,20 @@ public class Tower_Tesla : Tower {
                 damage      = 40.0f;
                 break;
         }
+
+        destroyTime = 2.7f;
+
     }
 
     public override void Fire(Enemy target) {
         // spawn bullet
-        GameObject g = (GameObject)Instantiate(bulletPrefab.gameObject, new Vector3(transform.position.x, transform.position.y + 1, transform.position.z) /*transform.position*/, Quaternion.identity);
+        GameObject g = (GameObject)Instantiate(bulletPrefab.gameObject, new Vector3(transform.position.x, transform.position.y + 1, transform.position.z), Quaternion.identity);
         // get access to bullet component
         Bullet b = g.GetComponent<Bullet>();
         // set destination
         if(target) b.setDestination(target.transform);
         b.setDamage(damage);
+        b.setDestroyTime(0.1f);
         // reset time
         timeLeft = interval;
     }

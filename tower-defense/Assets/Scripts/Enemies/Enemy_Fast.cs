@@ -11,7 +11,7 @@ public class Enemy_Fast : Enemy {
         health = 50.0f;
         damageReduction = 0.0f;
         reward = 15;
-        destroyTime = 1.0f;
+        destroyTime = 1.5f;
     }
 
 }
