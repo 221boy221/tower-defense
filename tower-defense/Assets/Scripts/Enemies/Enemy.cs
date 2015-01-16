@@ -6,6 +6,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour {
 
     public Transform[] waypoints;
+    public bool dead = false;
     protected float speed;
     protected float accuracy;
     protected float health;
@@ -118,11 +119,15 @@ public class Enemy : MonoBehaviour {
 
         if (health <= 0) {
             Dead();
+            
         }
     }
 
     // Enemies can override so that they can be destroyed with different delays
     private void Dead() {
+        if (dead) return;
+        dead = true;
+
         // Give the player gold as a reward
         _player.earnGold(reward);
         Debug.Log("Dead, reward is: " + reward);

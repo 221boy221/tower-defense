@@ -27,6 +27,7 @@ public class Tower : MonoBehaviour {
             if (enemies.Length > 0) {
                 closest = enemies[0];
                 for (int i = 1; i < enemies.Length; ++i) {
+                    if (enemies[i].dead) continue;
                     float current = Vector3.Distance(pos, enemies[i].transform.position);
                     float old = Vector3.Distance(pos, closest.transform.position);
                     // If the newly detected target is closer than the old (closest) target, set it to closest.
