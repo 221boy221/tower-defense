@@ -19,6 +19,11 @@ public class Tower : MonoBehaviour {
     private Animator _anim;
     //private AnimatorStateInfo _animInfo;
 
+    private AudioSource MainSource;
+
+    public AudioClip BuildAudio;
+    public AudioClip FireAudio;
+
     Enemy findClosestTarget() {
         Enemy closest = null;
         Vector3 pos = transform.position;
@@ -44,9 +49,11 @@ public class Tower : MonoBehaviour {
     }
 
     void Awake() {
+        MainSource = GetComponent<AudioSource>();
         _anim = GetComponentInChildren<Animator>();
         //_animInfo = _anim.GetCurrentAnimatorStateInfo(0);
         upgradePrice = buildPrice * 2;
+        MainSource.PlayOneShot(BuildAudio, 1f);
     }
 
     void Update() {
@@ -69,6 +76,7 @@ public class Tower : MonoBehaviour {
                 timeLeft = interval + fireDelay;
                 yield return new WaitForSeconds(fireDelay);
                 // Ready to fire
+                MainSource.PlayOneShot(FireAudio, 1f);
                 Fire(target);
             } else {
                 if (_anim) _anim.Play("animIdle");
