@@ -27,7 +27,7 @@ public class Tower_Tesla : Tower {
 
     public override void Fire(Enemy target) {
         // spawn bullet
-        GameObject g = (GameObject)Instantiate(bulletPrefab.gameObject, new Vector3(transform.position.x, transform.position.y + 1, transform.position.z), Quaternion.identity);
+        GameObject g = (GameObject)Instantiate(bulletPrefab.gameObject, new Vector3(transform.position.x, transform.position.y + 1, transform.position.z - 0.1f), Quaternion.identity);
         // get access to bullet component
         Bullet b = g.GetComponent<Bullet>();
         // set destination
