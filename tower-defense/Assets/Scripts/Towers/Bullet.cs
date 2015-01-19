@@ -11,10 +11,12 @@ public class Bullet : MonoBehaviour {
     private float _collDistance = 1.0f;
     private float _arch         = 2.0f;
     private bool _ignore        = false;
+    private float _z;
     private Vector3 _velocity;
     private Transform _destination;
 
     void Start() {
+        _z = transform.position.z;
         _velocity = new Vector3(0, _arch, 0);
     }
 
@@ -34,11 +36,12 @@ public class Bullet : MonoBehaviour {
         // Rotation
         transform.rotation = Quaternion.EulerAngles(0, 0, Mathf.Atan2(_velocity.y, _velocity.x));
 
-        // Fly towards the _destination
+        // Fly towards the destination, make sure to keep it's Z so that it doesn't go behind the towers and enemies.
         transform.position = transform.position + (_velocity * Time.deltaTime);
+        transform.position = new Vector3(transform.position.x, transform.position.y, _z);
 
         // When reached
-        if (Vector3.Distance(transform.position, _destination.position) < _collDistance && !_ignore) {
+        if (Vector2.Distance(transform.position, _destination.position) < _collDistance && !_ignore) {
             Enemy enemy = _destination.GetComponent<Enemy>();
             enemy.TakeDamage(_damage);
             _ignore = true;

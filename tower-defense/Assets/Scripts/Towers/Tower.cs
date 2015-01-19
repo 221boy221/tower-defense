@@ -26,7 +26,7 @@ public class Tower : MonoBehaviour {
 
     Enemy findClosestTarget() {
         Enemy closest = null;
-        Vector3 pos = transform.position;
+        Vector2 pos = transform.position;
 
         Enemy[] enemies = (Enemy[])FindObjectsOfType(typeof(Enemy));
         // If array isn't empty
@@ -35,8 +35,8 @@ public class Tower : MonoBehaviour {
                 closest = enemies[0];
                 for (int i = 1; i < enemies.Length; ++i) {
                     if (enemies[i].dead) continue;
-                    float current = Vector3.Distance(pos, enemies[i].transform.position);
-                    float old = Vector3.Distance(pos, closest.transform.position);
+                    float current = Vector2.Distance(pos, enemies[i].transform.position);
+                    float old = Vector2.Distance(pos, closest.transform.position);
                     // If the newly detected target is closer than the old (closest) target, set it to closest.
                     if (current < old) {
                         closest = enemies[i];
@@ -44,7 +44,6 @@ public class Tower : MonoBehaviour {
                 }
             }
         }
-
         return closest;
     }
 
@@ -70,7 +69,7 @@ public class Tower : MonoBehaviour {
         Enemy target = findClosestTarget();
         if (target != null) {
             // Check if in range
-            if (Vector3.Distance(transform.position, target.transform.position) <= range) {
+            if (Vector2.Distance(transform.position, target.transform.position) <= range) {
                 // Charging...
                 if (_anim) _anim.Play("animFire");
                 timeLeft = interval + fireDelay;

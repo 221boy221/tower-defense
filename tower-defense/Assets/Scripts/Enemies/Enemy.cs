@@ -21,9 +21,11 @@ public class Enemy : MonoBehaviour {
     private int _curWayPoint;
     private bool _alive = true;
     private Vector3 _velocity;
-    //private Vector3 _prevLoc = Vector3.zero;
+    private Vector3 _prevLoc = Vector3.zero;
     private Animator _anim;
     private Player _player;
+
+    
 
     void Awake() {
         _anim = GetComponentInChildren<Animator>();
@@ -49,6 +51,7 @@ public class Enemy : MonoBehaviour {
                 if (_curWayPoint != waypoints.Length) {
                     _curWayPoint++;
                     if (_curWayPoint >= waypoints.Length) {
+                        _player.Source.PlayOneShot(_player.EndOffTheLineAudio, 1f);
                         Destroy(gameObject);
                         // Deal damage to the player's hp
                         _player.TakeDamage(dmg);

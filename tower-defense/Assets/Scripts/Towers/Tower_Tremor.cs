@@ -12,13 +12,13 @@ public class Tower_Tremor : Tower {
             case 1:
                 buildPrice  = 100;
                 interval    = 6.0f;
-                range       = 3.0f;
+                range       = 2.0f;
                 damage      = 10.0f;
                 break;
             case 2:
                 buildPrice  = 200;
                 interval    = 4.5f;
-                range       = 4.0f;
+                range       = 3.0f;
                 damage      = 20.0f;
                 break;
         }

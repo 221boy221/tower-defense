@@ -9,10 +9,16 @@ public class Player : MonoBehaviour {
     public GUISkin skin = null;
     public Text goldText;
     public Text hpText;
-    private int _gold = 250;
+    private int _gold = 450;
     private int _hp = 20;
 
+    public AudioSource Source;
+
+    public AudioClip EndOffTheLineAudio;
+    public AudioClip NextWaveAudio;
+
     private void Start() {
+        Source = GetComponent<AudioSource>();
         UpdateUI();
     }
 
