@@ -204,7 +204,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.23000002, y: -1.546, z: -1}
+  m_LocalPosition: {x: -3.07999992, y: -1.20599997, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 22400014}
@@ -351,11 +351,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 31c6e16f23d21f841bc5ad90380f29d1, type: 2}
   - {fileID: 11431834, guid: 3020a84a716f7fd459bc99e38c402738, type: 2}
   - {fileID: 11400000, guid: c13a91a6c8571a843b371f32f8e84740, type: 2}
-  upgradedTowers:
+  towersLvl2:
   - {fileID: 11400000, guid: 56474a532db064e48a75e5b14eed6048, type: 2}
   - {fileID: 11400000, guid: 068e02753c8572d4682ad4517cf34ef9, type: 2}
   - {fileID: 11431834, guid: 1e941c4d613055944a0f975f1bc6f91f, type: 2}
   - {fileID: 11400000, guid: 947e68c8897393c41bcfdee2fdaca680, type: 2}
+  towersLvl3:
+  - {fileID: 11400000, guid: bc496abe1251b604fab2a09b03e7c34d, type: 2}
+  - {fileID: 11400000, guid: e70e9222f49a57a47b9d001cd205394f, type: 2}
+  - {fileID: 11431834, guid: 76be164c43700a14e90ecd44a129c84c, type: 2}
+  - {fileID: 11400000, guid: e0c1031b8fda9b847b102c51548409b5, type: 2}
   buyMenu: {fileID: 100016}
   towerMenu: {fileID: 100026}
 --- !u!114 &11400012
@@ -540,6 +545,7 @@ MonoBehaviour:
   m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Priority: 3
   ignoreReversedGraphics: 1
   blockingObjects: 0
   m_BlockingMask:
@@ -746,6 +752,7 @@ MonoBehaviour:
   m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Priority: 3
   ignoreReversedGraphics: 1
   blockingObjects: 0
   m_BlockingMask:

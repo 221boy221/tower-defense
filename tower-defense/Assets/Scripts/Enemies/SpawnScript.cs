@@ -16,7 +16,7 @@ public class SpawnScript : MonoBehaviour {
 
     private float _enemySpawnTime   = 0.0f;
     private float _enemySpawnDelay  = 2.0f;
-    private float _waveWait         = 3.0f;
+    private float _waveWait         = 20.0f;
     private bool _spawn             = true;
     private bool _spawnWave         = false;
     private int _maxEnemies         = 10; 

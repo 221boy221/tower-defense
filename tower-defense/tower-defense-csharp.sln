@@ -1,7 +1,8 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{BC6CB41D-6C15-0D5D-D263-16B42C738168}") = "tower-defense", "Assembly-CSharp-vs.csproj", "{D0D0018C-0352-4B8F-1F89-2B8E640F5E88}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-vs", "Assembly-CSharp-vs.csproj", "{D0D0018C-0352-4B8F-1F89-2B8E640F5E88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,30 +18,16 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																																								GlobalSection(MonoDevelopProperties) = preSolution
-=======
-																																																																																					GlobalSection(MonoDevelopProperties) = preSolution
->>>>>>> a0497366645224cf32c63bdc3fd090646f361906
-=======
-<<<<<<< HEAD
-																																																																	GlobalSection(MonoDevelopProperties) = preSolution
-=======
-																																																																		GlobalSection(MonoDevelopProperties) = preSolution
->>>>>>> 94ae1ff42ab02b930de87037063b1a45890c449b
->>>>>>> 38e56524a11a15648676a820552cf7bef34bfb4c
-=======
-																												GlobalSection(MonoDevelopProperties) = preSolution
->>>>>>> 0b7ab055ba62d33233465fee7d52d39f13b0ecee
+	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
-		$0.TextStylePolicy = $1
+		$0.TextStylePolicy = $3
 		$1.inheritsSet = null
 		$1.scope = text/x-csharp
 		$0.CSharpFormattingPolicy = $2
 		$2.inheritsSet = Mono
 		$2.inheritsScope = text/x-csharp
 		$2.scope = text/x-csharp
-		$0.TextStylePolicy = $3
 		$3.FileWidth = 120
 		$3.TabWidth = 4
 		$3.EolMarker = Unix
@@ -48,5 +35,4 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-
 EndGlobal

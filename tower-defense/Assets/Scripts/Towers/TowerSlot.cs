@@ -7,11 +7,13 @@ public class TowerSlot : MonoBehaviour {
 
     public GUISkin skin = null;
     public Tower[] towers = null;
-    public Tower[] upgradedTowers = null;
+    public Tower[] towersLvl2 = null;
+    public Tower[] towersLvl3 = null;
     public GameObject buyMenu;      // Where you can buy towers
     public GameObject towerMenu;    // Where you upgrade or sell the current tower
     private bool _occupied = false;
     private int _towerType;
+    private int _checkLvl;
     private Tower _tower;
     private Player _player;
     
@@ -32,9 +34,9 @@ public class TowerSlot : MonoBehaviour {
     }
 
     public void BuildTower(int towerType) {
-        if (_player.Gold >= towers[_towerType].buildPrice) {
+        if (_player.Gold >= towers[_towerType].GetBuildPrice()) {
             // Remove gold
-            _player.depleteGold(towers[_towerType].buildPrice);
+            _player.depleteGold(towers[_towerType].GetBuildPrice());
             // Save the type for later use
             _towerType = towerType;
             // Spawn tower
@@ -53,15 +55,29 @@ public class TowerSlot : MonoBehaviour {
 
     // Which then triggers this, since the UI can't trigger IEnumerators
     IEnumerator Upgrade() {
-        if (_player.Gold >= _tower.upgradePrice) {
-            _player.depleteGold(_tower.upgradePrice);
-
+        if (_player.Gold >= _tower.GetUpgradePrice()) {
+            _player.depleteGold(_tower.GetUpgradePrice());
+            _checkLvl = _tower.lvl + 1;
             _tower.SellTower();
-            Debug.Log(_tower.destroyTime);
+
+            // Hide menu if active to prevent upgrade spam glitch
+            towerMenu.SetActive(false);
+
             yield return new WaitForSeconds(_tower.destroyTime);
-            // Spawn lvl 2 tower
-            _tower = (Tower)Instantiate(upgradedTowers[_towerType], transform.position, Quaternion.identity);
-            _tower.lvl = 2;
+            // Spawn new Tower
+            switch (_checkLvl) {
+                case 2:
+                    _tower = (Tower)Instantiate(towersLvl2[_towerType], transform.position, Quaternion.identity);
+                    break;
+                case 3:
+                    _tower = (Tower)Instantiate(towersLvl3[_towerType], transform.position, Quaternion.identity);
+                    break;
+                default:
+                    _tower = (Tower)Instantiate(towersLvl3[_towerType], transform.position, Quaternion.identity);
+                    break;
+            }
+            _tower.lvl = _checkLvl;
+            
 
             // Hide menu if active
             towerMenu.SetActive(false);
@@ -72,7 +88,7 @@ public class TowerSlot : MonoBehaviour {
         // Remove tower
         _tower.SellTower();
         // Return 2/3th of gold from the buildPrice
-        _player.earnGold(_tower.buildPrice - (_tower.buildPrice / 3));
+        _player.earnGold(_tower.GetBuildPrice() - (_tower.GetBuildPrice() / 3));
         // Slot is no longer occupied
         _occupied = false;
         // Hide active menu

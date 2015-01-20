@@ -13,7 +13,7 @@ GameObject:
   - 114: {fileID: 11400000}
   - 82: {fileID: 8207338}
   m_Layer: 0
-  m_Name: Tower_Artillery_2
+  m_Name: Tower_Artillery_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,7 +142,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300094, guid: e92312c784fb88b478045f5254a38079, type: 3}
-  m_Color: {r: .323529422, g: .468154132, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

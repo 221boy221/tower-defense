@@ -10,10 +10,10 @@ GameObject:
   - 4: {fileID: 400000}
   - 95: {fileID: 9500000}
   - 212: {fileID: 21200000}
-  - 114: {fileID: 11400000}
+  - 114: {fileID: 11431834}
   - 82: {fileID: 8207338}
   m_Layer: 0
-  m_Name: Tower_Artillery_2
+  m_Name: Tower_Smelter_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -98,13 +98,13 @@ Animator:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 957028a65e685d8418dbbb1aadde40a6, type: 2}
+  m_Controller: {fileID: 9100000, guid: 203526e15bb7b344cbefeb82820cc4e0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11400000
+--- !u!114 &11431834
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -112,15 +112,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 527876c3c225de141a5ec69a09818084, type: 3}
+  m_Script: {fileID: 11500000, guid: a823478f62cf4674a9b3f7da65e19a06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 11400000, guid: d9231796330095f44b77d6540ad6e798, type: 2}
+  bulletPrefab: {fileID: 11400000, guid: df834c063ee97104392c59a443c1a074, type: 2}
   _beingSold: 0
   lvl: 1
   destroyTime: 3
   BuildAudio: {fileID: 8300000, guid: d193e0aad3187714ab2f4b4e3db96a20, type: 3}
-  FireAudio: {fileID: 8300000, guid: 0d8b3ef3a19c7aa4798a6dd5fe219083, type: 3}
+  FireAudio: {fileID: 8300000, guid: d540b07b20488c148b36d96af029cf48, type: 3}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -141,8 +141,8 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300094, guid: e92312c784fb88b478045f5254a38079, type: 3}
-  m_Color: {r: .323529422, g: .468154132, b: 1, a: 1}
+  m_Sprite: {fileID: 21300090, guid: f3f5d8c4792797e4d888fbc4e8003d7f, type: 3}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

@@ -118,8 +118,6 @@ MonoBehaviour:
   bulletPrefab: {fileID: 11400000, guid: a5d6f0b79df8c4d4e8a10d989ea56b86, type: 2}
   _beingSold: 0
   lvl: 1
-  buildPrice: 100
-  upgradePrice: 200
   destroyTime: 3
   BuildAudio: {fileID: 8300000, guid: d193e0aad3187714ab2f4b4e3db96a20, type: 3}
   FireAudio: {fileID: 8300000, guid: da011283801a4fc4183e042c22d93c7b, type: 3}
@@ -144,7 +142,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300194, guid: 9254674e1fe093549acbbea8ff12abf9, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: .323529422, g: .468154132, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

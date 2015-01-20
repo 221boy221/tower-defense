@@ -21,7 +21,7 @@ public class Enemy : MonoBehaviour {
     private int _curWayPoint;
     private bool _alive = true;
     private Vector3 _velocity;
-    private Vector3 _prevLoc = Vector3.zero;
+    //private Vector3 _prevLoc = Vector3.zero;
     private Animator _anim;
     private Player _player;
 

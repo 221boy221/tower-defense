@@ -6,18 +6,27 @@ using System.Collections;
 public class Tower_Artillery : Tower {
 
     void Start() {
+
+        buildPrice = 100;
+
         switch (lvl) {
             case 1:
-                buildPrice  = 100;
-                interval    = 6.0f;
-                range       = 6.0f;
-                damage      = 50.0f;
+                upgradePrice    = 200;
+                interval        = 6.0f;
+                range           = 6.0f;
+                damage          = 50.0f;
                 break;
             case 2:
-                buildPrice  = 200;
-                interval    = 5.0f;
-                range       = 12.0f;
-                damage      = 75.0f;
+                upgradePrice    = 400;
+                interval        = 5.0f;
+                range           = 12.0f;
+                damage          = 75.0f;
+                break;
+            case 3:
+                upgradePrice    = 999999999;
+                interval        = 3.0f;
+                range           = 12.0f;
+                damage          = 75.0f;
                 break;
         }
 

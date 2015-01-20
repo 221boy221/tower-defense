@@ -8,9 +8,9 @@ public class Tower : MonoBehaviour {
     public Bullet bulletPrefab  = null;
     public bool _beingSold      = false;
     public int lvl              = 1;
-    public int buildPrice       = 100;
-    public int upgradePrice     = 200;
     public float destroyTime    = 3.0f;
+    protected int buildPrice    = 100;
+    protected int upgradePrice  = 0;
     protected float damage      = 0.0f;
     protected float interval    = 2.0f;
     protected float range       = 10.0f;
@@ -51,7 +51,9 @@ public class Tower : MonoBehaviour {
         MainSource = GetComponent<AudioSource>();
         _anim = GetComponentInChildren<Animator>();
         //_animInfo = _anim.GetCurrentAnimatorStateInfo(0);
-        upgradePrice = buildPrice * 2;
+        Debug.Log("Old: " + upgradePrice);
+        //upgradePrice = buildPrice * 2;
+        Debug.Log("New: " + upgradePrice);
         MainSource.PlayOneShot(BuildAudio, 1f);
     }
 
@@ -175,6 +177,15 @@ public class Tower : MonoBehaviour {
         } */
 	#endregion
 
+    }
+
+    // Getters
+    public int GetBuildPrice() {
+        return buildPrice;
+    }
+
+    public int GetUpgradePrice() {
+        return upgradePrice;
     }
 
 }
