@@ -1,0 +1,333 @@
+fileFormatVersion: 2
+guid: 6623d529c61018144be53d1c2926aa99
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FRONT_0
+    21300002: FRONT_1
+    21300004: FRONT_2
+    21300006: FRONT_3
+    21300008: FRONT_4
+    21300010: FRONT_5
+    21300012: FRONT_6
+    21300014: FRONT_7
+    21300016: FRONT_8
+    21300018: FRONT_9
+    21300020: FRONT_10
+    21300022: FRONT_11
+    21300024: FRONT_12
+    21300026: FRONT_13
+    21300028: FRONT_14
+    21300030: FRONT_15
+    21300032: FRONT_16
+    21300034: FRONT_17
+    21300036: FRONT_18
+    21300038: FRONT_19
+    21300040: FRONT_20
+    21300042: FRONT_21
+    21300044: FRONT_22
+    21300046: FRONT_23
+    21300048: FRONT_24
+    21300050: FRONT_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FRONT_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 913
+        width: 97
+        height: 110
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 912
+        width: 96
+        height: 110
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 913
+        width: 96
+        height: 108
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 913
+        width: 96
+        height: 107
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 796
+        width: 97
+        height: 106
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 796
+        width: 96
+        height: 105
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 796
+        width: 97
+        height: 104
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_7
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 796
+        width: 97
+        height: 103
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 679
+        width: 97
+        height: 104
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 679
+        width: 97
+        height: 106
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 679
+        width: 98
+        height: 107
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_11
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 679
+        width: 98
+        height: 108
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 562
+        width: 97
+        height: 109
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_13
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 562
+        width: 98
+        height: 110
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_14
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 562
+        width: 97
+        height: 109
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_15
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 562
+        width: 97
+        height: 108
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 445
+        width: 97
+        height: 107
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_17
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 444
+        width: 96
+        height: 107
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_18
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 445
+        width: 97
+        height: 104
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_19
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 445
+        width: 97
+        height: 103
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 328
+        width: 97
+        height: 104
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 328
+        width: 98
+        height: 105
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_22
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 328
+        width: 97
+        height: 106
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_23
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 328
+        width: 96
+        height: 107
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 211
+        width: 96
+        height: 108
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FRONT_25
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 211
+        width: 97
+        height: 108
+      alignment: 9
+      pivot: {x: .540000021, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

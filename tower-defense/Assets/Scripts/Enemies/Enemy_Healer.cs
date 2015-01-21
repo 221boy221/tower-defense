@@ -12,7 +12,6 @@ public class Enemy_Healer : Enemy {
 
     void Start() {
         health          = 100.0f;
-        damageReduction = 0.0f;
         speed           = 1.0f;
         destroyTime     = 2.0f;
         reward          = 25;

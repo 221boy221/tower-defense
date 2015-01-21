@@ -44,6 +44,7 @@ MonoBehaviour:
   - {fileID: 116496, guid: 341c73d96a83b9d439ba25ca585d9bb6, type: 2}
   - {fileID: 100000, guid: 0715d1cafeec0714cb7b32816f1a2d53, type: 2}
   - {fileID: 100000, guid: 8fbda94c03dd41445a641f2979021719, type: 2}
+  - {fileID: 100000, guid: 4a09d8b5643cfdb4f9697a826606508b, type: 2}
   spawnValues: {x: -.349999994, y: 5.5, z: 0}
   waveCountText: {fileID: 0}
   waveTimeText: {fileID: 0}

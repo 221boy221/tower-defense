@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour {
     public Transform[] waypoints;
     public bool dead                = false;
     protected float health          = 50.0f;
-    protected float damageReduction = 0.0f; // dmg received * value. Put it between 0.0f and 1.0f, where as 1 is no reduction and 0 makes you invincible.
+    protected float damageReduction = 1.0f; // dmg received * value. Put it between 0.0f and 1.0f, where as 1 is no reduction and 0 makes you invincible.
     protected float speed           = 1.0f;
     protected float slowInSeconds   = 2.0f;
     protected float destroyTime     = 2.0f;

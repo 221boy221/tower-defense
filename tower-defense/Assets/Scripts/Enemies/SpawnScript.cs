@@ -19,7 +19,8 @@ public class SpawnScript : MonoBehaviour {
     private float _waveWait         = 20.0f;
     private bool _spawn             = true;
     private bool _spawnWave         = false;
-    private int _maxEnemies         = 10; 
+    private int _maxArmorEnemies    = 10;
+    private int _maxEnemies         = 10;
     private int _waveCounter        = 0;
     private int _enemyCount;
 
@@ -36,8 +37,10 @@ public class SpawnScript : MonoBehaviour {
             if (_waveWait <= 0) {
                 // Wave Start (enable the enemies to spawn)
                 _spawnWave = true;
-                // Reset countdown
+                // Reset values
                 _waveWait = 90.0f;
+                _maxArmorEnemies = 0;
+                // Play startwave sound
                 _player.Source.PlayOneShot(_player.NextWaveAudio, 2f);
                 // Decrease enemySpawnDelay
                 if (_enemySpawnDelay >= 0.2f) {
@@ -72,12 +75,15 @@ public class SpawnScript : MonoBehaviour {
         GameObject g;
 
         // Check the wave, when it's on wave 10, start spawning the rest of the enemies as well.
-        if (_waveCounter < 10) {
-            g = (GameObject)Instantiate(enemyTypes[Random.Range(0, enemyTypes.Length - 1)], spawnPostition, spawnRotation);
+        if (_waveCounter >= 10 && _maxArmorEnemies < 1) {
+            g = (GameObject)Instantiate(enemyTypes[enemyTypes.Length - 1], spawnPostition, spawnRotation);
+            _maxArmorEnemies += 1;
+            Debug.Log("Spawn Armor: " + _maxArmorEnemies);
         } else {
-            g = (GameObject)Instantiate(enemyTypes[Random.Range(0, enemyTypes.Length)], spawnPostition, spawnRotation);
+            g = (GameObject)Instantiate(enemyTypes[Random.Range(0, enemyTypes.Length - 1)], spawnPostition, spawnRotation);
+            Debug.Log("Spawn normal: " + g);
         }
-
+        Debug.Log("Test");
         g.GetComponent<Enemy>().waypoints = waypoints.wayPoints;
     }
     

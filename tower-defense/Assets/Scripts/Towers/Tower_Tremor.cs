@@ -27,7 +27,7 @@ public class Tower_Tremor : Tower {
             case 3:
                 upgradePrice    = 999999999;
                 interval        = 4.0f;
-                range           = 4.0f;
+                range           = 3.5f;
                 damage          = 25.0f;
                 break;
         }

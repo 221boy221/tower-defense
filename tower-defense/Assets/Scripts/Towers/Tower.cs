@@ -51,9 +51,6 @@ public class Tower : MonoBehaviour {
         MainSource = GetComponent<AudioSource>();
         _anim = GetComponentInChildren<Animator>();
         //_animInfo = _anim.GetCurrentAnimatorStateInfo(0);
-        Debug.Log("Old: " + upgradePrice);
-        //upgradePrice = buildPrice * 2;
-        Debug.Log("New: " + upgradePrice);
         MainSource.PlayOneShot(BuildAudio, 1f);
     }
 

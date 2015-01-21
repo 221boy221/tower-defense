@@ -7804,7 +7804,7 @@ CanvasRenderer:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 189072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-  m_PrefabInternal: {fileID: 1779519443}
+  m_PrefabInternal: {fileID: 2076865062}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1433816364}
@@ -7821,7 +7821,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2,
     type: 2}
-  m_PrefabInternal: {fileID: 1779519443}
+  m_PrefabInternal: {fileID: 2076865062}
   m_GameObject: {fileID: 1433816362}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -7841,7 +7841,7 @@ MonoBehaviour:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-  m_PrefabInternal: {fileID: 1779519443}
+  m_PrefabInternal: {fileID: 2076865062}
   m_GameObject: {fileID: 1433816362}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -.409999996, y: 5.17999983, z: 0}
@@ -9381,74 +9381,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1c230443d15545644b783250dbc46ee1, type: 2}
   m_RootGameObject: {fileID: 119712820}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
---- !u!1001 &1779519443
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 11489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-      propertyPath: enemyTypes.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -.409999996
-      objectReference: {fileID: 0}
-    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 5.17999983
-      objectReference: {fileID: 0}
-    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-      propertyPath: waypoints
-      value: 
-      objectReference: {fileID: 1606381259}
-    - target: {fileID: 11489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-      propertyPath: text
-      value: 
-      objectReference: {fileID: 990342208}
-    - target: {fileID: 11489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-      propertyPath: waveTimeText
-      value: 
-      objectReference: {fileID: 544083744}
-    - target: {fileID: 11489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-      propertyPath: waveCountText
-      value: 
-      objectReference: {fileID: 990342208}
-    - target: {fileID: 11489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-      propertyPath: enemyTypes.Array.data[3]
-      value: 
-      objectReference: {fileID: 100000, guid: 4a09d8b5643cfdb4f9697a826606508b, type: 2}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
-  m_RootGameObject: {fileID: 1433816362}
   m_IsPrefabParent: 0
   m_IsExploded: 1
 --- !u!1 &1794383993
@@ -11087,6 +11019,62 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2025297894}
+--- !u!1001 &2076865062
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -.409999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5.17999983
+      objectReference: {fileID: 0}
+    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
+      propertyPath: waypoints
+      value: 
+      objectReference: {fileID: 1606381259}
+    - target: {fileID: 11489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
+      propertyPath: waveCountText
+      value: 
+      objectReference: {fileID: 990342208}
+    - target: {fileID: 11489072, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
+      propertyPath: waveTimeText
+      value: 
+      objectReference: {fileID: 544083744}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b93d64d7b3ad3c440a3ebced4b2c1ff2, type: 2}
+  m_RootGameObject: {fileID: 1433816362}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &2106937141
 GameObject:
   m_ObjectHideFlags: 0

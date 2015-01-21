@@ -1,0 +1,333 @@
+fileFormatVersion: 2
+guid: 3f81f19d486ff014d8f4c0e57d2e6cf0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BACK_0
+    21300002: BACK_1
+    21300004: BACK_2
+    21300006: BACK_3
+    21300008: BACK_4
+    21300010: BACK_5
+    21300012: BACK_6
+    21300014: BACK_7
+    21300016: BACK_8
+    21300018: BACK_9
+    21300020: BACK_10
+    21300022: BACK_11
+    21300024: BACK_12
+    21300026: BACK_13
+    21300028: BACK_14
+    21300030: BACK_15
+    21300032: BACK_16
+    21300034: BACK_17
+    21300036: BACK_18
+    21300038: BACK_19
+    21300040: BACK_20
+    21300042: BACK_21
+    21300044: BACK_22
+    21300046: BACK_23
+    21300048: BACK_24
+    21300050: BACK_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BACK_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 914
+        width: 88
+        height: 109
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 913
+        width: 90
+        height: 110
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 914
+        width: 92
+        height: 108
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 914
+        width: 93
+        height: 107
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 798
+        width: 94
+        height: 106
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 798
+        width: 95
+        height: 105
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 798
+        width: 95
+        height: 105
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_7
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 798
+        width: 96
+        height: 106
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 682
+        width: 95
+        height: 106
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 682
+        width: 95
+        height: 107
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_10
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 682
+        width: 94
+        height: 108
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_11
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 682
+        width: 95
+        height: 109
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 566
+        width: 95
+        height: 109
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_13
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 565
+        width: 95
+        height: 110
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_14
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 566
+        width: 95
+        height: 108
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_15
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 566
+        width: 94
+        height: 107
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 450
+        width: 95
+        height: 106
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_17
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 450
+        width: 96
+        height: 105
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_18
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 450
+        width: 95
+        height: 105
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_19
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 450
+        width: 94
+        height: 106
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 334
+        width: 93
+        height: 106
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_21
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 334
+        width: 93
+        height: 107
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_22
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 334
+        width: 92
+        height: 107
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_23
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 334
+        width: 91
+        height: 108
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 217
+        width: 90
+        height: 110
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BACK_25
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 218
+        width: 88
+        height: 109
+      alignment: 9
+      pivot: {x: .49000001, y: .219999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
