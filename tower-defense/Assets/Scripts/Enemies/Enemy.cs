@@ -5,34 +5,29 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour {
 
+    // Default values in case the childs do not overwrite, to avoid 'Null' runtime errors.
+
     public Transform[] waypoints;
-    public bool dead = false;
-    protected float speed;
-    protected float accuracy;
-    protected float health;
-    protected float damageReduction;
-    protected float timeLeft = 0.0f;
-    protected float interval = 2.0f;
-    protected float slowInSeconds = 2f;
-    protected float range = 10.0f;
-    protected float destroyTime = 2.0f;
-    protected int reward = 10;
-    protected int dmg = 1;
+    public bool dead                = false;
+    protected float health          = 50.0f;
+    protected float damageReduction = 0.0f; // dmg received * value. Put it between 0.0f and 1.0f, where as 1 is no reduction and 0 makes you invincible.
+    protected float speed           = 1.0f;
+    protected float slowInSeconds   = 2.0f;
+    protected float destroyTime     = 2.0f;
+    protected int reward            = 10;
+    protected int dmg               = 1;
+    private float accuracy          = Random.Range(0.05f, 0.5f);
+    private bool _alive             = true;
     private int _curWayPoint;
-    private bool _alive = true;
     private Vector3 _velocity;
-    //private Vector3 _prevLoc = Vector3.zero;
     private Animator _anim;
     private Player _player;
 
-    
+    //private Vector3 _prevLoc = Vector3.zero;
 
     void Awake() {
         _anim = GetComponentInChildren<Animator>();
         _player = GameObject.FindGameObjectWithTag("GameController").GetComponent<Player>();
-    }
-
-    void Start() {
         _curWayPoint = 0;
         _velocity = new Vector3();
     }
@@ -51,11 +46,12 @@ public class Enemy : MonoBehaviour {
                 if (_curWayPoint != waypoints.Length) {
                     _curWayPoint++;
                     if (_curWayPoint >= waypoints.Length) {
+                        // Play audio
                         _player.Source.PlayOneShot(_player.EndOffTheLineAudio, 1f);
+                        // Get rid of the object
                         Destroy(gameObject);
                         // Deal damage to the player's hp
                         _player.TakeDamage(dmg);
-                        Debug.Log("Enemy got to the end");
                     }
                 }
             }
@@ -96,10 +92,14 @@ public class Enemy : MonoBehaviour {
     public void SlowEnemy(int slowAmount) {
         StartCoroutine(Slow(slowAmount));
     }
+
     // Which then triggers this
     IEnumerator Slow(int slowAmount) {
+        // Slow enemy's speed
         speed = speed / slowAmount;
+        // Wait a few seconds (The time the enemies are slowed)
         yield return new WaitForSeconds(slowInSeconds);
+        // Set his speed back to normal
         speed = speed * slowAmount;
     }
 
@@ -110,26 +110,28 @@ public class Enemy : MonoBehaviour {
 
     // Take damage
     public void TakeDamage(float dmg) {
-        dmg -= damageReduction;
+        // If the enemy happens to have armor
+        dmg = dmg * damageReduction;
         if (dmg < 0) dmg = 0;
 
+        // Actually deal damage
         health -= dmg;
         if (health <= 0) Dead();
     }
 
     // Destroy and give Reward
     private void Dead() {
+        // Check if he ain't dead already, in case multiple bullets still have him as target.
         if (dead) return;
         dead = true;
 
         // Give the player gold as a reward
         _player.earnGold(reward);
-        Debug.Log("Dead, reward is: " + reward);
         // Play death anim
         _anim.Play("animDeath");
         // Disable movement
         _alive = false;
-        // Destroy
+        // Destroy but wait for the destroyTime first (which is the length of the enemy's death animation)
         Destroy(gameObject, destroyTime);
     }
 

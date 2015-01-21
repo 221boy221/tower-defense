@@ -34,12 +34,12 @@ public class SpawnScript : MonoBehaviour {
 
         if (_spawn) {
             if (_waveWait <= 0) {
-                // Wave Start (enable the enemies to _spawn)
+                // Wave Start (enable the enemies to spawn)
                 _spawnWave = true;
                 // Reset countdown
                 _waveWait = 90.0f;
                 _player.Source.PlayOneShot(_player.NextWaveAudio, 2f);
-                // Decrease _enemySpawnDelay
+                // Decrease enemySpawnDelay
                 if (_enemySpawnDelay >= 0.2f) {
                     _enemySpawnDelay -= 0.1f;
                 }
@@ -69,11 +69,19 @@ public class SpawnScript : MonoBehaviour {
     void SpawnEnemy() {
         Vector3 spawnPostition = new Vector3(spawnValues.x, spawnValues.y, spawnValues.z);
         Quaternion spawnRotation = Quaternion.identity;
-        GameObject g = (GameObject)Instantiate(enemyTypes[Random.Range(0, enemyTypes.Length)], spawnPostition, spawnRotation);
+        GameObject g;
+
+        // Check the wave, when it's on wave 10, start spawning the rest of the enemies as well.
+        if (_waveCounter < 10) {
+            g = (GameObject)Instantiate(enemyTypes[Random.Range(0, enemyTypes.Length - 1)], spawnPostition, spawnRotation);
+        } else {
+            g = (GameObject)Instantiate(enemyTypes[Random.Range(0, enemyTypes.Length)], spawnPostition, spawnRotation);
+        }
+
         g.GetComponent<Enemy>().waypoints = waypoints.wayPoints;
     }
     
-    // for the ingame button to skip timer
+    // For the ingame button to skip timer
     public void NextWave() {
         _waveWait = 0.0f;
     }

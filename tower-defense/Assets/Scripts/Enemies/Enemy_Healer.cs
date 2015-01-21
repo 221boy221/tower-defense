@@ -1,20 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-    // Boy
+    // Boy & Swan
 
 public class Enemy_Healer : Enemy {
 
     //private bool _canHeal = false;
+    //private float range = 10.0f;
+    //private float interval = 0.5f;
+    //private float timeLeft = 0.0f;
 
     void Start() {
-        speed = 1.0f;
-        accuracy = 0.1f;
-        health = 100.0f;
+        health          = 100.0f;
         damageReduction = 0.0f;
-        interval = 0.5f;
-        reward = 25;
-        destroyTime = 2.0f;
+        speed           = 1.0f;
+        destroyTime     = 2.0f;
+        reward          = 25;
     }
 
 

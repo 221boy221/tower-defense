@@ -6,12 +6,11 @@ using System.Collections;
 public class Enemy_Armored : Enemy {
     
     void Start() {
-        speed = 0.5f;
-        accuracy = 0.1f;
-        health = 100.0f;
-        damageReduction = 0.0f;
-        reward = 25;
-        destroyTime = 3.0f;
+        health          = 150.0f;
+        damageReduction = 0.8f; // dmg received * value. Put it between 0.0f and 1.0f, where as 1 is no reduction and 0 makes you invincible.
+        speed           = 0.3f;
+        destroyTime     = 3.0f;
+        reward          = 45;
     }
 
 }
