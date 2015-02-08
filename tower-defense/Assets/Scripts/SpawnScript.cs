@@ -17,7 +17,6 @@ public class SpawnScript : MonoBehaviour {
     private float _enemySpawnTime   = 0.0f;
     private float _enemySpawnDelay  = 2.0f;
     private float _waveWait         = 20.0f;
-    private bool _spawn             = true;
     private bool _spawnWave         = false;
     private int _maxArmorEnemies    = 10;
     private int _maxEnemies         = 10;
@@ -33,40 +32,38 @@ public class SpawnScript : MonoBehaviour {
         _waveWait -= Time.deltaTime;
         waveTimeText.text = "Next wave in: " + Mathf.RoundToInt(_waveWait);
 
-        if (_spawn) {
-            if (_waveWait <= 0) {
-                // Wave Start (enable the enemies to spawn)
-                _spawnWave = true;
-                // Reset values
-                _waveWait = 90.0f;
-                _maxArmorEnemies = 0;
-                // Play startwave sound
-                _player.Source.PlayOneShot(_player.NextWaveAudio, 2f);
-                // Decrease enemySpawnDelay
-                if (_enemySpawnDelay >= 0.2f) {
-                    _enemySpawnDelay -= 0.1f;
-                }
-                // Set the wave text to the corresponding wave
-                _waveCounter++;
-                waveCountText.text = "Wave: " + _waveCounter;
+        if (_waveWait <= 0) {
+        // Wave Start (enable the enemies to spawn)
+            _spawnWave = true;
+            // Reset values
+            _waveWait = 90.0f;
+            _maxArmorEnemies = 0;
+            // Play startwave sound
+            _player.Source.PlayOneShot(_player.NextWaveAudio, 2f);
+            // Decrease enemySpawnDelay
+            if (_enemySpawnDelay >= 0.2f) {
+                _enemySpawnDelay -= 0.1f;
             }
-
-            if (_spawnWave) {
-                // Spawn every 1 second
-                _enemySpawnTime += Time.deltaTime;
-                if (_enemySpawnTime >= _enemySpawnDelay) {
-                    _enemySpawnTime = 0.0f;
-                    _enemyCount++;
-                    SpawnEnemy();
-                }
-            }
-
-            if (_enemyCount >= (_maxEnemies * _waveCounter) / 2) {
-                _spawnWave = false;
-                _enemyCount = 0;
-            }
-            
+            // Set the wave text to the corresponding wave
+            _waveCounter++;
+            waveCountText.text = "Wave: " + _waveCounter;
         }
+
+        if (_spawnWave) {
+            // Spawn every 1 second
+            _enemySpawnTime += Time.deltaTime;
+            if (_enemySpawnTime >= _enemySpawnDelay) {
+                _enemySpawnTime = 0.0f;
+                _enemyCount++;
+                SpawnEnemy();
+            }
+        }
+
+        if (_enemyCount >= (_maxEnemies * _waveCounter) / 2) {
+            _spawnWave = false;
+            _enemyCount = 0;
+        }
+
     }
     
     void SpawnEnemy() {

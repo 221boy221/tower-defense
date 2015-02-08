@@ -27,27 +27,41 @@ public class Bullet : MonoBehaviour {
             return;
         }
 
+        // Get step to target
+        CalcStep();
+
+        // Rotation
+        transform.rotation = Quaternion.EulerAngles(0, 0, Mathf.Atan2(_velocity.y, _velocity.x));
+
+        // Fly towards the destination
+        Movement();
+
+        // When reached
+        if (Vector2.Distance(transform.position, _destination.position) < _collDistance && !_ignore) {
+            HitTarget();
+        }
+    }
+
+    private void Movement() {
+        // Fly towards the destination, make sure to keep it's Z so that it doesn't go behind the towers and enemies.
+        transform.position = transform.position + (_velocity * Time.deltaTime);
+        transform.position = new Vector3(transform.position.x, transform.position.y, _z);
+    }
+
+    private void CalcStep() {
         // Calculate step to target
         Vector3 offset = _destination.position - transform.position;
         offset.Normalize();
         offset = offset * _speed;
         _velocity = _velocity + offset;
+    }
 
-        // Rotation
-        transform.rotation = Quaternion.EulerAngles(0, 0, Mathf.Atan2(_velocity.y, _velocity.x));
-
-        // Fly towards the destination, make sure to keep it's Z so that it doesn't go behind the towers and enemies.
-        transform.position = transform.position + (_velocity * Time.deltaTime);
-        transform.position = new Vector3(transform.position.x, transform.position.y, _z);
-
-        // When reached
-        if (Vector2.Distance(transform.position, _destination.position) < _collDistance && !_ignore) {
-            Enemy enemy = _destination.GetComponent<Enemy>();
-            enemy.TakeDamage(_damage);
-            _ignore = true;
-            // Slight delay
-            Destroy(gameObject, _destroyTime);
-        }
+    private void HitTarget() {
+        Enemy enemy = _destination.GetComponent<Enemy>();
+        enemy.TakeDamage(_damage);
+        _ignore = true;
+        // Slight delay
+        Destroy(gameObject, _destroyTime);
     }
 
     public void setDamage(float dmg) {
