@@ -17,7 +17,7 @@ Lorenzo van Mourik
 Susan van der Puijl  
 
 
-# Work that we are proud of:
+# Work that we are proud of
 
 Boy Voesten
 - [Tower base class](https://github.com/221boy221/tower-defense/blob/master/tower-defense/Assets/Scripts/Towers/Tower.cs)
